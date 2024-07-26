@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="../assets/styles/home.css">
 
 <?php
-    include "./components/header.php";
-
-    include "./components/footer.php";
+include "./components/header.php";
 ?>
+
