@@ -1,9 +1,8 @@
-<h1>home</h1>
+<link rel="stylesheet" href="../assets/styles/global.css">
+<link rel="stylesheet" href="../assets/styles/home.css">
 
 <?php
     include "./components/header.php";
-?>
 
-<?php
     include "./components/footer.php";
 ?>

@@ -1,0 +1,21 @@
+.main-nav {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments de se replier à l'intérieur du conteneur */
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  gap: 5rem; /* Ajustez cette valeur si nécessaire */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: lightgray 0 10px 10px 1px;
+  margin: 15px auto;
+  width: 40%; /* Ajustez cette valeur pour limiter la largeur */
+}
+.main-li {
+  list-style: none;
+}
+.main-a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
