@@ -9,10 +9,26 @@ function loadPage($page) {
         case 'home':
             include 'pages/home.php';
             break;
+  
+        case 'projects':
+            include 'pages/projects.php';
+            break;
+        case 'web':
+            include 'pages/projects/web.php';
+            break;
+        case 'music':
+            include 'pages/projects/music.php';
+            break;
+        case 'graphic':
+            include 'pages/projects/graphic.php';
+            break;
 
-        // ** Partie utilisateurs    
-        case 'register':
-            include 'pages/register.php';
+        case 'me':
+            include 'pages/me.php';
+            break;
+
+        case 'contact':
+            include 'pages/contact.php';
             break;
 
         default:
@@ -38,6 +54,12 @@ function loadPage($page) {
     Si la condition est fausse, la valeur après le : est utilisée (ici, une chaîne vide '').
 */ 
 $page = isset($_GET['page']) ? $_GET['page'] : '';
+
+/*
+    ! attention = lorsque je veux vérifier la page sur laquelle je veux être rediriger
+    il faut bien faire attention que dans le href je mette le même mot que de celui
+    que je met dans $_GET --> sinon le router ne sait pas ce que je cherche
+*/
 
 // Charger la bonne page
 loadPage($page);

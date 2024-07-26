@@ -4,10 +4,10 @@
     <section class="section-link">
         <div>
             <p>Navigation</p>
-            <li class="main-footer-li"><a class="main-footer-a" href="index.php?pages=home">Home</a></li>
-            <li class="main-footer-li"><a class="main-footer-a" href="index.php?pages=home">Mes projets</a></li>
-            <li class="main-footer-li"><a class="main-footer-a" href="index.php?pages=home">Qui suis-je ?</a></li>
-            <li class="main-footer-li"><a class="main-footer-a" href="index.php?pages=home">Contact</a></li>
+            <li class="main-footer-li"><a class="main-footer-a" href="./index.php?pages=home">Home</a></li>
+            <li class="main-footer-li"><a class="main-footer-a" href="./index.php?pages=home">Mes projets</a></li>
+            <li class="main-footer-li"><a class="main-footer-a" href="./index.php?pages=home">Qui suis-je ?</a></li>
+            <li class="main-footer-li"><a class="main-footer-a" href="./index.php?pages=home">Contact</a></li>
         </div>
         <div>
             <p>Mes projets</p>
@@ -30,10 +30,10 @@
     </section>
     <section class="section-logo">
         <a href="">
-            <img class="icon" src="./assets/img/icons/linkedin.svg" alt="logo linkedin" /></a>
+            <img class="icon" src="../assets/img/icons/linkedin.svg" alt="logo linkedin" /></a>
         <a href="">
-            <img class="icon" src="./assets/img/icons/square-envelope-solid.svg" alt="logo mail" /></a>
+            <img class="icon" src="../assets/img/icons/square-envelope-solid.svg" alt="logo mail" /></a>
         <a class="link-footer" href="">
-            <img class="icon" src="./assets/img/icons/square-github.svg" alt="logo github" /></a>
+            <img class="icon" src="../assets/img/icons/square-github.svg" alt="logo github" /></a>
     </section>
 </nav>

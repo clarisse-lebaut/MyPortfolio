@@ -1,0 +1,52 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 50px;
+}
+.main-container-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 50px;
+}
+.main-container-music {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 50px;
+}
+.main-container-art {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 50px;
+}
+.title-page-projects {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title-project {
+  text-align: center;
+}
+
+.card-container {
+  background-color: rgba(0, 0, 255, 0.176);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.card-pic {
+  width: 400px;
+}
+.card-text {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
