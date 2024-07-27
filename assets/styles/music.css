@@ -1,0 +1,48 @@
+.title-page-projects {
+  margin: 50px;
+  text-align: center;
+}
+.main-container-music {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.card-container-music {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.filter {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 50px;
+}
+.filter-btn {
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  background-color: #f8f8ff;
+  color: black;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.472);
+}
+.filter-btn:hover {
+  transform: translateY(-5px);
+}
+.filter-btn:active {
+  transform: translateY(5px);
+}
+.link-back-projects {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+.link-back-projects:hover {
+  color: blue;
+}

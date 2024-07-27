@@ -10,13 +10,22 @@
     "image_five": "../assets/img/projects/matchatea/MatchaTeaHome.png",
     "languages": ["HTML", "CSS"],
     "outils": ["Trello", "VS Code"],
-    "link": "#"
+    "link": "#",
+    "category": "Plateforme"
   },
   {
     "title": "WatchMe",
-    "description": "Un site de montre",
-    "image": "../assets/img/category/coding.jpeg",
-    "link": "#"
+    "description": "Un site de montres, je vais mettre des mots comme ça random jyste pour mettre plus de mots et faire comem si pour le moment il y aait une grande despcritopn etsi nje contoiue je pense que ca va me prendre tout l'espace et aller dans la ligne suivante alors que j epesne que je vais mettre les outils et les langue acteor",
+    "video": "../assets/video/WatchMe.mp4",
+    "image_one": "../assets/img/projects/matchatea/MatchaTea2.png",
+    "image_two": "../assets/img/projects/matchatea/MatchaTea2.png",
+    "image_three": "../assets/img/projects/matchatea/MatchaTeaHome.png",
+    "image_four": "../assets/img/projects/matchatea/MatchaTeaHome.png",
+    "image_five": "../assets/img/projects/matchatea/MatchaTeaHome.png",
+    "languages": ["PHP", "MySQL", "CSS"],
+    "outils": ["Trello", "VS Code", "Figma"],
+    "link": "#",
+    "category": "Perso"
   },
   {
     "title": "Clicker",

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Solitude",
+    "audio": "../assets/music/alone.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Conquête",
+    "audio": "../assets/music/conquête.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "My beast of Deep",
+    "audio": "../assets/music/deep.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Conqupete",
+    "audio": "../assets/music/conquête.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Dans ce carton d'imagination",
+    "audio": "../assets/music/imagination.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "L'impatience me gagne",
+    "audio": "../assets/music/impatience.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Midnight",
+    "audio": "../assets/music/midnight.mp3",
+    "type": "Instrumental",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Reverly",
+    "audio": "../assets/music/revelry.mp3",
+    "type": "Instrumental",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Stop this Game",
+    "audio": "../assets/music/stop.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  }
+]

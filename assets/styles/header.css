@@ -8,16 +8,10 @@
   margin: 15px auto;
   width: 40%; /* Ajustez cette valeur pour limiter la largeur */
 
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: #3573efc9;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  transform: ease-in-out;
-}
-.main-nav:hover {
-  background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -25,10 +19,10 @@
   list-style: none;
 }
 .main-a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 25px;
 }
 .main-a:hover {
-  color: white;
+  color: black;
 }
