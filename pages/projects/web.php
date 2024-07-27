@@ -24,9 +24,30 @@
                     const card = document.createElement('div');
                     card.className = 'card-container';
                     card.innerHTML = `
-                        <a href="${project.link}"><img class="card-pic" src="${project.image}" alt="${project.title}"></a>
-                        <p class="card-text">${project.title}</p>
+                    <div class="details-projects-header">
+                        <p class="card-text title-project">${project.title}</p>
+                        <div class="color-project">
+                            <p>insérer la charte phrahique</p> 
+                        </div>
+                    </div>
+                    <div class="details-projects">
                         <p class="card-description">${project.description}</p>
+                         <p class="card-description">${project.languages}</p>
+                        <p class="card-description">${project.outils}</p>
+                    </div>
+                        <div class="grid-container">
+                        <div class="grid-item one">
+                            <video class="card-pic" controls>
+                                <source src="${project.video}" type="video/mp4">
+                                Votre navigateur ne supporte pas la balise vidéo.
+                            </video>
+                        </div>
+                            <div class="grid-item"><img class="card-pic" src="${project.image_one}" alt="${project.title}"></div>
+                            <div class="grid-item"><img class="card-pic" src="${project.image_two}" alt="${project.title}"></div>
+                            <div class="grid-item"><img class="card-pic" src="${project.image_three}" alt="${project.title}"></div>
+                            <div class="grid-item"><img class="card-pic" src="${project.image_four}" alt="${project.title}"></div>
+                            <div class="grid-item"><img class="card-pic" src="${project.image_five}" alt="${project.title}"></div>
+                        </div>
                     `;
                     container.appendChild(card);
                 });
