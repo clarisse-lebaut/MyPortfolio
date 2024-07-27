@@ -1,0 +1,62 @@
+[
+  {
+    "title": "WatchMe",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "index.php?page=watchme"
+  },
+  {
+    "title": "MatchaTea",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "index.php?page=watchme"
+  },
+  {
+    "title": "Clicker",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "index.php?page=watchme"
+  },
+  {
+    "title": "Memory",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "index.php?page=watchme"
+  },
+  {
+    "title": "CineTech",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "#"
+  },
+  {
+    "title": "BloomPetal",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "#"
+  },
+  {
+    "title": "Password Generator",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "#"
+  },
+  {
+    "title": "Quiz Night",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "#"
+  },
+  {
+    "title": "CandyShop",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "#"
+  },
+  {
+    "title": "JPO-Connect",
+    "description": "Un site de montre",
+    "image": "../assets/img/category/coding.jpeg",
+    "link": "#"
+  }
+]
