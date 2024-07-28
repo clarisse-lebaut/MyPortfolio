@@ -1,0 +1,42 @@
+.main-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.37);
+}
+.content {
+  position: relative;
+}
+.pic {
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  display: block;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px; /* Optionnel, pour arrondir les coins du texte */
+  font-size: 1.5rem; /* Ajustez la taille du texte comme nécessaire */
+  white-space: nowrap; /* Évite que le texte ne se divise en plusieurs lignes */
+  transition: transform 0.3s; /* Ajoute une transition fluide pour le mouvement */
+}
+.text:hover {
+  transform: translate(
+    -50%,
+    -80%
+  ); /* Déplace le texte légèrement vers le bas lors du survol */
+}

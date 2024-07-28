@@ -1,6 +1,7 @@
 [
   {
     "path": "../assets/img/illustration/AlbumPochetteBack.jpg",
+    "description":"Face avant de la pochette de l'album CD Le Métalleux Geek",
     "type": "album"
   },
   {
@@ -214,5 +215,9 @@
   {
     "path": "../assets/img/illustration/Logo.jpeg",
     "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/flyers.jpg",
+    "type": "flyer"
   }
 ]

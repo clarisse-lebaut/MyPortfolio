@@ -1,14 +1,16 @@
-<title>Mes Projets Web</title>
 <link rel="stylesheet" href="../assets/styles/global.css">
 <link rel="stylesheet" href="../assets/styles/web.css">
 
-
-<?php include "./components/header.php"; ?>
+<?php 
+include "./components/header.php"; 
+?>
 
 <main>
-    <h1 class="title-page-projects">MES PROJETS : WEB</h1>
+    <h1 class="title-page-projects">WEB</h1>
 
-    <a class="link-back-projects" href="index.php?page=projects">Revenir au catégorie de projets</a>
+    <?php
+    include "./components/nav-projects.php";
+    ?>
 
     <section class="filter">
         <button class="filter-btn" data-filter="all">Tous</button>

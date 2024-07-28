@@ -1,15 +1,9 @@
-.main-container {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 50px;
-}
 .main-container-web {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
-  padding: 50px;
+  padding: 0 50px 0 50px;
   margin-bottom: 50px;
 }
 .title-page-projects {

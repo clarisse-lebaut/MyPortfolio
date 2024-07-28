@@ -6,9 +6,11 @@ include "./components/header.php";
 ?>
 
 <main>
-    <h1 class="title-page-projects">MES PROJETS : MUSICAUX</h1>
+    <h1 class="title-page-projects">GRAPHIQUES</h1>
 
-    <a class="link-back-projects" href="index.php?page=projects">Revenir au catégorie de projets</a>
+    <?php
+    include "./components/nav-projects.php";
+    ?>
 
     <section class="filter">
         <button class="filter-btn" data-filter="all">Tous</button>
@@ -19,12 +21,20 @@ include "./components/header.php";
         <button class="filter-btn" data-filter="crayon">crayon</button>
         <button class="filter-btn" data-filter="bombe">bombe</button>
         <button class="filter-btn" data-filter="bd">BD</button>
-        <button class="filter-btn" data-filter="affiche">Flyers</button>     
+        <button class="filter-btn" data-filter="flyer">Flyers</button>     
     </section>
 
     <section class="main-container-art" id="projects-container">
         <!-- Les cartes de projet seront ajoutées ici par JavaScript -->
     </section>
+
+
+    <section id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </section>
+
 </main>
 
 <?php
@@ -63,24 +73,14 @@ document.addEventListener("DOMContentLoaded", () => {
             const card = document.createElement('div');
             card.className = 'card-container';
             card.innerHTML = `
-                <div class="card-container-music">
-                    <img class="img-art" src="${project.path}">
-                </div>
+                <div class="card-container">
+                    <div class="img-container">
+                        <img class="img-art" src="${project.path}" alt="Art Image">
+                        <p class="card-description">${project.description}</p>
+                    </div>
+                </div>              
             `;
             container.appendChild(card);
-        });
-
-        // Sélectionner les éléments audio après affichage des projets
-        const audios = document.querySelectorAll('audio');
-        audios.forEach(audio => {
-            audio.addEventListener('play', () => {
-                audios.forEach(otherAudio => {
-                    if (otherAudio !== audio) {
-                        otherAudio.pause();
-                        otherAudio.currentTime = 0; // Optionnel : remet l'audio à zéro
-                    }
-                });
-            });
         });
     }
 });

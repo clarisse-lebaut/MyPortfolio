@@ -1,17 +1,21 @@
 <link rel="stylesheet" href="../assets/styles/global.css">
 <link rel="stylesheet" href="../assets/styles/music.css">
 
-<?php include "./components/header.php"; ?>
+<?php 
+include "./components/header.php"; 
+?>
 
 <main>
-    <h1 class="title-page-projects">MES PROJETS : MUSICAUX</h1>
-
-    <a class="link-back-projects" href="index.php?page=projects">Revenir au catégorie de projets</a>
+    <h1 class="title-page-projects">MUSICAUX</h1>
+    
+    <?php
+    include "./components/nav-projects.php";
+    ?>
 
     <section class="filter">
         <button class="filter-btn" data-filter="all">Tous</button>
         <button class="filter-btn" data-filter="Instrumental">Instrumental</button>
-        <button class="filter-btn" data-filter="Paroles">Avec Parole</button>
+        <button class="filter-btn" data-filter="Paroles">Avec Paroles</button>
         <button class="filter-btn" data-filter="Suno">Suno</button>
         <button class="filter-btn" data-filter="Musescore">Partition</button>
     </section>
