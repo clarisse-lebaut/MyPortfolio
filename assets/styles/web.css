@@ -12,20 +12,6 @@
   padding: 50px;
   margin-bottom: 50px;
 }
-.main-container-music {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
-  padding: 50px;
-}
-.main-container-art {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
-  padding: 50px;
-}
 .title-page-projects {
   text-align: center;
   margin-top: 50px;

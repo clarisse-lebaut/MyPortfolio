@@ -1,0 +1,218 @@
+[
+  {
+    "path": "../assets/img/illustration/AlbumPochetteBack.jpg",
+    "type": "album"
+  },
+  {
+    "path": "../assets/img/illustration/AlbumPochetteFace.jpg",
+    "type": "album"
+  },
+  {
+    "path": "../assets/img/illustration/BD1.jpeg",
+    "type": "bd"
+  },
+  {
+    "path": "../assets/img/illustration/BDStrip1.jpeg",
+    "type": "bd"
+  },
+  {
+    "path": "../assets/img/illustration/BDStrip2.jpeg",
+    "type": "bd"
+  },
+  {
+    "path": "../assets/img/illustration/Anarchie.jpg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/Aquarelle.jpeg",
+    "type": "aquarelle"
+  },
+  {
+    "path": "../assets/img/illustration/Bluecity.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/NYB.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/NYBCroquis.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Batman.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/Superman.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/GreenLantern.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/Sinestro.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/Flash.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/thwane.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/Luthor.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/Joker.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/baymax.jpg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/Chaussures1.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Chaussures2.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Chaussures3.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Chaussures4.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Cygne.jpg",
+    "type": "bombe"
+  },
+  {
+    "path": "../assets/img/illustration/illustration.jpeg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/Luffy.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Luffy2.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Luffy3.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Natsu.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Natsu2.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/oiseau.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Pastel.jpeg",
+    "type": "pastel"
+  },
+  {
+    "path": "../assets/img/illustration/Perso.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Picsou.jpeg",
+    "type": "feutre"
+  },
+  {
+    "path": "../assets/img/illustration/Sac1.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Sac2.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Sac3.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Sac4.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Savane.jpg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/Spiderman.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Univers1.jpeg",
+    "type": "bombe"
+  },
+  {
+    "path": "../assets/img/illustration/Univers2.jpeg",
+    "type": "bombe"
+  },
+  {
+    "path": "../assets/img/illustration/Univers3.jpeg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/Univers4.jpeg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/Univers5.jpeg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/USB1.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/USB2.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/USB3.jpeg",
+    "type": "croquis"
+  },
+  {
+    "path": "../assets/img/illustration/Wolverine.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Zoro.jpeg",
+    "type": "crayon"
+  },
+  {
+    "path": "../assets/img/illustration/Capture.png",
+    "type": "illustrator"
+  },
+  {
+    "path": "../assets/img/illustration/mignion.jpg",
+    "type": "peinture"
+  },
+  {
+    "path": "../assets/img/illustration/strip.jpg",
+    "type": "feutre"
+  },
+  {
+    "path": "../assets/img/illustration/Logo.jpeg",
+    "type": "peinture"
+  }
+]

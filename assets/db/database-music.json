@@ -18,12 +18,6 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Conqupete",
-    "audio": "../assets/music/conquête.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "Dans ce carton d'imagination",
     "audio": "../assets/music/imagination.mp3",
     "type": "Paroles",
