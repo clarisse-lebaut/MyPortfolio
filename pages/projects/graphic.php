@@ -27,14 +27,6 @@ include "./components/header.php";
     <section class="main-container-art" id="projects-container">
         <!-- Les cartes de projet seront ajoutées ici par JavaScript -->
     </section>
-
-
-    <section id="myModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </section>
-
 </main>
 
 <?php
@@ -71,13 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = ''; // Vider le conteneur avant d'ajouter les projets filtrés
         projects.forEach(project => {
             const card = document.createElement('div');
-            card.className = 'card-container';
             card.innerHTML = `
                 <div class="card-container">
-                    <div class="img-container">
-                        <img class="img-art" src="${project.path}" alt="Art Image">
-                        <p class="card-description">${project.description}</p>
-                    </div>
+                    <img class="img-art" src="${project.path}" alt="Art Image">
+                    <p class="card-description">${project.description}</p>
                 </div>              
             `;
             container.appendChild(card);

@@ -1,50 +1,251 @@
 [
   {
     "title": "Solitude",
+    "format": "Audio",
     "audio": "../assets/music/alone.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Conquête",
+    "format": "Audio",
     "audio": "../assets/music/conquête.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
+    "title": "Whiskey",
+    "format": "Audio",
+    "audio": "../assets/music/Whiskey.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
     "title": "My beast of Deep",
+    "format": "Audio",
     "audio": "../assets/music/deep.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Dans ce carton d'imagination",
+    "format": "Audio",
     "audio": "../assets/music/imagination.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "L'impatience me gagne",
+    "format": "Audio",
     "audio": "../assets/music/impatience.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Midnight",
+    "format": "Audio",
     "audio": "../assets/music/midnight.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Reverly",
+    "format": "Audio",
     "audio": "../assets/music/revelry.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Stop this Game",
+    "format": "Audio",
     "audio": "../assets/music/stop.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
+  },
+  {
+    "title": "I can't breath",
+    "format": "Audio",
+    "audio": "../assets/music/breath.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Dance on the Moon",
+    "format": "Audio",
+    "audio": "../assets/music/Dance.mp3",
+    "type": "Instrumental",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Face à ce désert",
+    "format": "Audio",
+    "audio": "../assets/music/desert.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Donner ma flamme",
+    "format": "Audio",
+    "audio": "../assets/music/flamme.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Une jeunesse à moi - V1",
+    "format": "Audio",
+    "audio": "../assets/music/jeune.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Une jeunesse à moi - V2",
+    "format": "Audio",
+    "audio": "../assets/music/jeunesse.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Moonlight Dance",
+    "format": "Audio",
+    "audio": "../assets/music/MD.mp3",
+    "type": "Instrumental",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Symphonie minimaliste",
+    "format": "Audio",
+    "audio": "../assets/music/minimalisme.mp3",
+    "type": "Instrumental",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Une jeunesse à moi - V3",
+    "format": "Audio",
+    "audio": "../assets/music/passé.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Fairy night",
+    "format": "Audio",
+    "audio": "../assets/music/night.mp3",
+    "type": "Instrumental",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Sample 1",
+    "format": "Audio",
+    "audio": "../assets/music/sample1.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Sample 2",
+    "format": "Audio",
+    "audio": "../assets/music/sample2.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Sample 3",
+    "format": "Audio",
+    "audio": "../assets/music/sample3.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Sample 5",
+    "format": "Audio",
+    "audio": "../assets/music/sample5.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Mélancholie",
+    "format": "Audio",
+    "audio": "../assets/music/Mélancholie.wav",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Angry Christmas",
+    "format": "Audio",
+    "audio": "../assets/music/christmas.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Quand le diable danse",
+    "format": "Audio",
+    "audio": "../assets/music/devil.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Aurevoir",
+    "format": "Audio",
+    "audio": "../assets/music/l1.mp3",
+    "type": "Instrumental",
+    "plateforme": "Garageband"
+  },
+  {
+    "title": "Metro, Boulot, Dodo",
+    "format": "Image",
+    "img1": "../assets/music/Partitiongraphique1.jpg",
+    "img2": "../assets/music/Partitiongraphique2.jpg",
+    "img3": "../assets/music/Partitiongraphique3.jpg",
+    "img4": "../assets/music/Partitiongraphique4.jpg",
+    "audio": "",
+    "description": "Parition graphique à but pédagogique s'inspirant des rélaisation de Cathy Berberian,",
+    "type": "Graphique",
+    "plateforme": ""
+  },
+  {
+    "title": "Basse",
+    "format": "Image",
+    "img1": "../assets/music/basse1.png",
+    "img2": "../assets/music/basse2.png",
+    "audio": "../assets/music/bass.mp3",
+    "type": "Instrumental",
+    "plateforme": "Partition"
+  },
+  {
+    "title": "Composer le monde",
+    "format": "Image",
+    "img1": "../assets/music/monde1.png",
+    "img2": "../assets/music/monde2.png",
+    "img3": "../assets/music/monde3.png",
+    "audio": "../assets/music/l3.mp3",
+    "type": "Instrumental",
+    "plateforme": "Partition"
+  },
+  {
+    "title": "Minimalisme musical",
+    "format": "Image",
+    "img1": "../assets/music/451.png",
+    "img2": "../assets/music/452.png",
+    "img3": "../assets/music/453.png",
+    "img4": "../assets/music/454.png",
+    "audio": "../assets/music/mini.mp3",
+    "type": "Instrumental",
+    "plateforme": "Partition"
+  },
+  {
+    "title": "Hauted House",
+    "format": "Image",
+    "img1": "../assets/music/hanté.png",
+    "audio": "../assets/music/hanté.mp3",
+    "type": "Instrumental",
+    "plateforme": "Partition"
+  },
+  {
+    "title": "Come Back",
+    "format": "Image",
+    "img1": "../assets/music/find1.png",
+    "img2": "../assets/music/find3.png",
+    "img4": "",
+    "audio": "../assets/music/Retrouvé.mp3",
+    "type": "Instrumental",
+    "plateforme": "Partition"
   }
 ]

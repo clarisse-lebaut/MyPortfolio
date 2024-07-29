@@ -21,8 +21,8 @@
   margin: 15px auto;
   width: 90%; /* Ajustez cette valeur pour limiter la largeur */
 
-  background: #3573efc9;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.37);
+  background: #91c8e4;
+  box-shadow: 0 5px 10px 0 lightgray;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
@@ -35,9 +35,10 @@
   color: black;
   text-decoration: none;
   font-size: 25px;
+  transition: ease-in-out 0.2s;
 }
 .main-footer-a:hover {
-  color: white;
+  color: #f6f4eb;
 }
 .icon {
   width: 70px;

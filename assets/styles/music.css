@@ -1,24 +1,43 @@
-/* ELEMNT ON PAGE*/
 .title-page-projects {
-  margin: 50px;
   text-align: center;
+  margin-top: 50px;
 }
+
+/* -------------------------- */
+
 .main-container-music {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
+  gap: 2rem;
+  padding: 0 50px 0 50px;
   margin-bottom: 50px;
 }
 .card-container-music {
-  background-color: white;
+  background-color: #f8f8ff;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 5px 10px 0px lightgray;
+}
+.card-container-image {
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px 0px lightgray;
+}
+.img-music {
+  width: 350px;
+}
+.container-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
 }
 
+/* -------------------------- */
 
-/* FILTER */
 .filter {
   display: flex;
   gap: 3rem;
@@ -26,15 +45,14 @@
   margin: 50px;
 }
 .filter-btn {
-  border-radius: 10px;
+  border-radius: 50px;
   border: none;
   padding: 20px;
-  background-color: #f8f8ff;
-  color: black;
-  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.472);
+  background-color: #4682a9;
+  color: #f6f4eb;
 }
 .filter-btn:hover {
-  transform: translateY(-5px);
+  box-shadow: 0 5px 10px 0px lightgray;
 }
 .filter-btn:active {
   transform: translateY(5px);
