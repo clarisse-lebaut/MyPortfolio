@@ -8,7 +8,16 @@ include "./components/header.php";
 <main>
     <div class="title-page-projects">
         <h1>MES PROJETS</h1>
-        <p>Une présentation rapide de tout les projets que je peux faire</p>
+        <p>
+          Grande adoratrice de l'organisation, j'ai priviligié un rangement et une présentation par thème des différents projets sur lesquel je me lance corps et âme. 
+        </p>
+        <p>
+          Si certians sont réalisé au cour des différents formations que j'ai suivi, d'autre sont fait à la demande,
+          et pas mal d'entre eux sont d'odre personnel parce que, comme j'ai souvent pu l'entendre, le talent c'est 10% de chance et 90% de travail !
+        </p>
+        <p>
+          J'espère pouvoir continuer à remplir cette page avec de nombreuse autres cétegories !
+        </p>
     </div>
 
   <section class="main-container">

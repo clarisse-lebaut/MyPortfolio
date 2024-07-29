@@ -52,7 +52,9 @@
 }
 .filter-btn:hover {
   box-shadow: 0 5px 10px 0px lightgray;
+  cursor: pointer;
 }
 .filter-btn:active {
   transform: translateY(5px);
+  cursor: pointer;
 }

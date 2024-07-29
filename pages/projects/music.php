@@ -19,7 +19,8 @@ include "./components/header.php";
         <button class="filter-btn" data-filter="Suno">Suno</button>
         <button class="filter-btn" data-filter="Partition">Musescore</button>
         <button class="filter-btn" data-filter="Garageband">Garageband</button>
-         <button class="filter-btn" data-filter="Graphique">Graphique</button>
+        <button class="filter-btn" data-filter="Graphique">Graphique</button>
+        <button class="filter-btn" data-filter="MaxMsp">Max MSP</button>
     </section>
 
     <section class="main-container-music" id="projects-container">
@@ -89,8 +90,12 @@ document.addEventListener("DOMContentLoaded", () => {
                         <audio controls>
                             <source src="${project.audio}" type="audio/mpeg">
                             Votre navigateur ne supporte pas l'élément audio.
-                        </audio>
-                        ` : ''}
+                        </audio>` : ''}
+                        ${project.video ? `
+                        <video class="video-music" controls>
+                            <source src="${project.video}" type="video/mp4">
+                            Votre navigateur ne supporte pas l'élément vidéo.
+                        </video>` : ''}
                         <p>${project.description ? project.description : ''}</p>
                     </div>
                 `;
@@ -115,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
 
 
 </script>

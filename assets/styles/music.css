@@ -19,6 +19,7 @@
   padding: 20px;
   text-align: center;
   box-shadow: 0 5px 10px 0px lightgray;
+  align-items: center;
 }
 .card-container-image {
   background-color: #f8f8ff;
@@ -31,9 +32,18 @@
   width: 350px;
 }
 .container-img {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.video-music {
+  width: 100%; /* ou toute autre largeur souhaitée, par exemple 50%, 400px, etc. */
+  max-width: 800px; /* Limite la largeur maximale de la vidéo */
+  height: auto; /* Maintient le ratio d'aspect */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* -------------------------- */
@@ -53,7 +63,9 @@
 }
 .filter-btn:hover {
   box-shadow: 0 5px 10px 0px lightgray;
+  cursor: pointer;
 }
 .filter-btn:active {
   transform: translateY(5px);
+  cursor: pointer;
 }

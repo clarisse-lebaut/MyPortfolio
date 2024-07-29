@@ -196,7 +196,7 @@
     "img3": "../assets/music/Partitiongraphique3.jpg",
     "img4": "../assets/music/Partitiongraphique4.jpg",
     "audio": "",
-    "description": "Parition graphique à but pédagogique s'inspirant des rélaisation de Cathy Berberian,",
+    "description": "Partition graphique à but pédagogique, s'inspirant des réalisations de Cathy Berberian",
     "type": "Graphique",
     "plateforme": ""
   },
@@ -247,5 +247,29 @@
     "audio": "../assets/music/Retrouvé.mp3",
     "type": "Instrumental",
     "plateforme": "Partition"
+  },
+  {
+    "title": "Comptine musicale",
+    "description": "Application musicale, lecteur de comptine, cette application à pour but de senesibliser à la découverte des notes de musique - réalisé en Licence Musicologie",
+    "format": "Image",
+    "img1": "../assets/music/comptine1.png",
+    "img2": "../assets/music/comptine3.png",
+    "img3": "../assets/music/comptine5.png",
+    "img4": "../assets/music/comptine2.png",
+    "audio": "",
+    "video": "../assets/music/comptine.mp4",
+    "type": "Instrumental",
+    "plateforme": "MaxMsp"
+  },
+  {
+    "title": "SuperHero Theme",
+    "description": "Application musicale, enregistrement des Bandes Oringales via le logicial Garageband - réalisé en Licence Musicologie",
+    "format": "Image",
+    "img1": "../assets/music/hero1.png",
+    "img2": "../assets/music/hero2.png",
+    "audio": "",
+    "video": "../assets/music/hero.mp4",
+    "type": "Instrumental",
+    "plateforme": "MaxMsp"
   }
 ]
