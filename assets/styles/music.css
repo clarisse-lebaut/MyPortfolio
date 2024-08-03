@@ -60,6 +60,8 @@
   padding: 20px;
   background-color: #4682a9;
   color: #f6f4eb;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 15px;
 }
 .filter-btn:hover {
   box-shadow: 0 5px 10px 0px lightgray;

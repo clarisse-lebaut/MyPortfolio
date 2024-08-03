@@ -13,7 +13,7 @@
       <a href="index.php?page=music">
         <div class="content">
           <img class="pic" src="../assets/img/category/musique.jpg" alt="">
-          <p class="text">Musique</p>
+          <p class="text">Musicaux</p>
         </div>
       </a>
     </div>
@@ -21,7 +21,7 @@
       <a href="index.php?page=graphic">
         <div class="content">
           <img class="pic" src="../assets/img/category/art.webp" alt="">
-          <p class="text">Arts</p>
+          <p class="text">Graphiques</p>
         </div>
       </a>
     </div>

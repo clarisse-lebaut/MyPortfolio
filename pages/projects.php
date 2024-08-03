@@ -33,7 +33,7 @@ include "./components/header.php";
       <a href="index.php?page=music">
         <div class="main-card-content">
           <img class="main-card-pic" src="../assets/img/category/musique.jpg" alt="">
-          <p class="main-card-text">Musique</p>
+          <p class="main-card-text">Musicaux</p>
         </div>
       </a>
     </div>
@@ -41,7 +41,7 @@ include "./components/header.php";
       <a href="index.php?page=graphic">
         <div class="main-card-content">
           <img class="main-card-pic" src="../assets/img/category/art.webp" alt="">
-          <p class="main-card-text">Arts</p>
+          <p class="main-card-text">Graphiques</p>
         </div>
       </a>
     </div>
