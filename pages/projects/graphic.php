@@ -14,13 +14,13 @@ include "./components/header.php";
 
     <section class="filter">
         <button class="filter-btn" data-filter="all">Tous</button>
-        <button class="filter-btn" data-filter="album">album</button>
-        <button class="filter-btn" data-filter="peinture">peinture</button>
-        <button class="filter-btn" data-filter="aquarelle">aquarelle</button>
-        <button class="filter-btn" data-filter="illustrator">illustrator</button>
-        <button class="filter-btn" data-filter="crayon">crayon</button>
-        <button class="filter-btn" data-filter="bombe">bombe</button>
-        <button class="filter-btn" data-filter="bd">BD</button>
+        <button class="filter-btn" data-filter="album">Illustrations</button>
+        <button class="filter-btn" data-filter="peinture">Peintures</button>
+        <button class="filter-btn" data-filter="aquarelle">Aquarelles</button>
+        <button class="filter-btn" data-filter="illustrator">Adobe Illustrator</button>
+        <button class="filter-btn" data-filter="crayon">Crayons</button>
+        <button class="filter-btn" data-filter="bombe">Bombes</button>
+        <button class="filter-btn" data-filter="bd">Bandes dessinés</button>
         <button class="filter-btn" data-filter="flyer">Flyers</button>     
     </section>
 

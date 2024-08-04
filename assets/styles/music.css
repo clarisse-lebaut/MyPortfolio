@@ -30,6 +30,15 @@
 }
 .img-music {
   width: 350px;
+  transition: opacity 350ms ease-in-out, scale 350ms ease-in-out;
+}
+.card-container-image:has(.img-music:hover) .img-music:not(.img-music:hover) {
+  opacity: 0.3;
+  z-index: 1;
+}
+.img-music:hover {
+  scale: 1.5;
+  z-index: 1;
 }
 .container-img {
   display: flex;

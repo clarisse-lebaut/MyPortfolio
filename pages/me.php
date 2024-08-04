@@ -8,60 +8,58 @@ include "./components/header.php";
 <h1 class="title-page-projects">Donc... pour répondre à cette question !</h1>
   <nav class="cv-nav">
     <ul class="cv-ul">
-      <li class="cv-li"><a class="a-contact" href="">Linkedin</a></li>
-      <li class="cv-li"><a class="a-contact" href="">GitHub</a></li>
-      <li class="cv-li"><a class="a-contact" href="">clarisse.lebaut@gmail.com</a></li>
-      <li class="cv-li">13920, Saint Mitre les Remparts</li>
+      <li class="cv-li"><a class="a-contact" href="https://linkedin.com/in/clarisse-le-baut-161499235" target="_blank">Linkedin</a></li>
+      <li class="cv-li"><a class="a-contact" href="https://github.com/clarisse-lebaut" target="_blank">GitHub</a></li>
+      <li class="cv-li"><a class="a-contact" href="" target="_blank">clarisse.lebaut@gmail.com</a></li>
+      <li class="cv-li"><a class="a-contact" href="https://www.google.fr/maps/place/13920+Saint-Mitre-les-Remparts/@43.4565357,4.9946024,14z/data=!3m1!4b1!4m6!3m5!1s0x12b61c2c6ec329c1:0x40819a5fd96ff70!8m2!3d43.4376515!4d5.0368613!16s%2Fm%2F02rpcf0?entry=ttu" target="_blank">13920, Saint Mitre les Remparts</li>
       <li class="cv-li">Permis B</li>
+      <li class="cv-li"><a class="a-contact" href="files/document.pdf" download="document.pdf">Mon CV</a></li>
     </ul>
   </nav>
     <main class="main">
       <!-- prensentation -->
       <section class="presentation">
           <img class="avatar" src="../assets/img/bimoji/hero.png" alt="avatar">
-
           <div class="card-description-me">
-
-          <div class="first-elements">
-            <section class="container-contact-logo">
-              <p class="name">Clarisse LE BAUT</p>
-              <img class="contact-logo" src="../assets/img/icons/linkedin.svg" alt="">
-              <img class="contact-logo" src="../assets/img/icons/square-envelope-solid.svg" alt="">
-              <img class="contact-logo" src="../assets/img/icons/square-github.svg" alt="">
-            </section>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio officiis quam minus, amet quod ad aperiam architecto nobis non, 
-              dolore omnis quia nihil! Soluta nemo iure sit amet sequi iusto dolorem deserunt iste quaerat a, mollitia alias omnis quis, 
-              doloremque magnam saepe nisi neque! Molestiae praesentium autem quibusdam earum quos.
-            </p>
-          </div>
-
-          
-          <div >
-            <p>Atouts</p>
-            <div class="atout-ul">
-              <li class="atout-li">Autonome</li>
-              <li class="atout-li">Réactive</li>
-              <li class="atout-li">Créative</li>
-              <li class="atout-li">Organisée</li>
-              <li class="atout-li">Productive</li>
+            <div class="first-elements">
+              <section class="container-contact-logo">
+                <p class="name">Clarisse LE BAUT</p>
+                <a class="contact-logo" href="https://linkedin.com/in/clarisse-le-baut-161499235" target="_blank"><img src="../assets/img/icons/linkedin.svg" alt=""></a>
+                <a class="contact-logo" href="" target="_blank"><img src="../assets/img/icons/square-envelope-solid.svg" alt=""></a>
+                <a class="contact-logo" href="https://github.com/clarisse-lebaut" target="_blank"><img src="../assets/img/icons/square-github.svg" alt=""></a>
+              </section>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio officiis quam minus, amet quod ad aperiam architecto nobis non, 
+                dolore omnis quia nihil! Soluta nemo iure sit amet sequi iusto dolorem deserunt iste quaerat a, mollitia alias omnis quis, 
+                doloremque magnam saepe nisi neque! Molestiae praesentium autem quibusdam earum quos.
+              </p>
             </div>
-
-            <div>
-              <p>Logiciels</p>
-              <div class="competences-ul">
-                <img class="logo-logiciel" src="../assets/img/icons/html5-brands-solid.svg" alt="logo HTML5">
-                <img class="logo-logiciel" src="../assets/img/icons/css3-alt-brands-solid.svg" alt="logo CSS3">
-                <img class="logo-logiciel" src="../assets/img/icons/square-js-brands-solid.svg" alt="logo Javascript">
-                <img class="logo-logiciel" src="../assets/img/icons/bootstrap-brands-solid.svg" alt="logo Bootsrap">
-                <img class="logo-logiciel" src="../assets/img/icons/figma-brands-solid.svg" alt="logo Figma">
-                <img class="logo-logiciel" src="../assets/img/icons/trello-brands-solid.svg" alt="logo Trello">
-                <img class="logo-logiciel" src="../assets/img/icons/php-brands-solid.svg" alt="logo PHP">
-                <img class="logo-logiciel" src="../assets/img/icons/python-brands-solid.svg" alt="logo Python">
-                <img class="logo-logiciel" src="../assets/img/icons/node-brands-solid.svg" alt="logo NodeJS">
-                <img class="logo-logiciel" src="../assets/img/icons/react-brands-solid.svg" alt="logo ReactJS">
+            <div >
+              <p>Atouts</p>
+              <div class="atout-ul">
+                <li class="atout-li">Autonome</li>
+                <li class="atout-li">Réactive</li>
+                <li class="atout-li">Créative</li>
+                <li class="atout-li">Organisée</li>
+                <li class="atout-li">Productive</li>
               </div>
-          </div>
+
+              <div>
+                <p>Logiciels</p>
+                <div class="competences-ul">
+                  <img class="logo-logiciel" src="../assets/img/icons/html5-brands-solid.svg" alt="logo HTML5">
+                  <img class="logo-logiciel" src="../assets/img/icons/css3-alt-brands-solid.svg" alt="logo CSS3">
+                  <img class="logo-logiciel" src="../assets/img/icons/square-js-brands-solid.svg" alt="logo Javascript">
+                  <img class="logo-logiciel" src="../assets/img/icons/bootstrap-brands-solid.svg" alt="logo Bootsrap">
+                  <img class="logo-logiciel" src="../assets/img/icons/figma-brands-solid.svg" alt="logo Figma">
+                  <img class="logo-logiciel" src="../assets/img/icons/trello-brands-solid.svg" alt="logo Trello">
+                  <img class="logo-logiciel" src="../assets/img/icons/php-brands-solid.svg" alt="logo PHP">
+                  <img class="logo-logiciel" src="../assets/img/icons/python-brands-solid.svg" alt="logo Python">
+                  <img class="logo-logiciel" src="../assets/img/icons/node-brands-solid.svg" alt="logo NodeJS">
+                  <img class="logo-logiciel" src="../assets/img/icons/react-brands-solid.svg" alt="logo ReactJS">
+                </div>
+            </div>
+         </div>
       </section>
 
       <!-- formations -->
@@ -135,7 +133,7 @@ include "./components/header.php";
 
       <!-- experiences -->
       <section>
-        <h1 class="title-page-projects">Mes expériences</h1>
+        <h1 class="title-page-projects">Mes expériences professionnelles</h1>
           <section class="experience">
             <div class="card-experience">
                 <p class="date-experience"><b>Janvier - Août 2022</b></p>
@@ -225,6 +223,9 @@ include "./components/header.php";
                 </ul>
             </div>  
           </section>
+          <div>
+            <button class="btn-cv"><img src="../assets/img/icons/download-solid.svg" alt=""><p>Mon CV</p></button>
+          </div>
       </section>
     </main>
 <?php

@@ -82,6 +82,7 @@
   color: white;
   font-size: 40px;
   margin: 0;
+  font-family: "Finger Paint", sans-serif;
 }
 .container-contact-logo {
   display: flex;
@@ -159,6 +160,22 @@
   text-align: center;
   box-shadow: lightgray 0 5px 15px 0;
 }
+.diplome {
+  text-align: center;
+}
+
+/* -------------------------- */
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.card-experience {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: lightgray 0 5px 15px 0;
+}
 .titre-experience {
   background-color: #749bc2;
   border-radius: 5px;
@@ -167,22 +184,29 @@
   box-shadow: lightgray 0 5px 15px 0;
 }
 
-.diplome {
-  text-align: center;
-}
+/* -------- */
 
-/* -------------------------- */
-
-.experience {
+.btn-cv {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 50%;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #4682a9;
+  border: none;
+  border-radius: 10px;
   margin: auto;
+  margin-top: 50px;
+  padding: 15px;
 }
-.card-experience {
-  background-color: white;
-  padding: 20px;
-  border-radius: 20px;
+.btn-cv > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-cv > img {
+  width: 15%;
+}
+.btn-cv:hover {
   box-shadow: lightgray 0 5px 15px 0;
+}
+.btn-cv:active {
+  transform: translateY(5px);
 }
