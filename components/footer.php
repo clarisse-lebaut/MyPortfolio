@@ -28,7 +28,7 @@
     <section class="section-logo">
         <a href="https://linkedin.com/in/clarisse-le-baut-161499235" target="_blank">
             <img class="icon" src="../assets/img/icons/linkedin.svg" alt="logo linkedin" /></a>
-        <a href="" target="_blank">
+        <a href="mailto:clarisse.lebaut@gmail.com" target="_blank">
             <img class="icon" src="../assets/img/icons/square-envelope-solid.svg" alt="logo mail" target="_blank" /></a>
         <a class="link-footer" href="https://github.com/clarisse-lebaut" target="_blank">
             <img class="icon" src="../assets/img/icons/square-github.svg" alt="logo github" /></a>

@@ -10,10 +10,10 @@ include "./components/header.php";
     <ul class="cv-ul">
       <li class="cv-li"><a class="a-contact" href="https://linkedin.com/in/clarisse-le-baut-161499235" target="_blank">Linkedin</a></li>
       <li class="cv-li"><a class="a-contact" href="https://github.com/clarisse-lebaut" target="_blank">GitHub</a></li>
-      <li class="cv-li"><a class="a-contact" href="" target="_blank">clarisse.lebaut@gmail.com</a></li>
+      <li class="cv-li"><a class="a-contact" href="mailto:clarisse.lebaut@gmail.com" target="_blank">clarisse.lebaut@gmail.com</a></li>
       <li class="cv-li"><a class="a-contact" href="https://www.google.fr/maps/place/13920+Saint-Mitre-les-Remparts/@43.4565357,4.9946024,14z/data=!3m1!4b1!4m6!3m5!1s0x12b61c2c6ec329c1:0x40819a5fd96ff70!8m2!3d43.4376515!4d5.0368613!16s%2Fm%2F02rpcf0?entry=ttu" target="_blank">13920, Saint Mitre les Remparts</li>
       <li class="cv-li">Permis B</li>
-      <li class="cv-li"><a class="a-contact" href="files/document.pdf" download="document.pdf">Mon CV</a></li>
+      <li class="cv-li"><a class="a-contact" href="files/cv.pdf" target="_blank">Mon CV</a></li>
     </ul>
   </nav>
     <main class="main">
@@ -25,17 +25,16 @@ include "./components/header.php";
               <section class="container-contact-logo">
                 <p class="name">Clarisse LE BAUT</p>
                 <a class="contact-logo" href="https://linkedin.com/in/clarisse-le-baut-161499235" target="_blank"><img src="../assets/img/icons/linkedin.svg" alt=""></a>
-                <a class="contact-logo" href="" target="_blank"><img src="../assets/img/icons/square-envelope-solid.svg" alt=""></a>
+                <a class="contact-logo" href="mailto:clarisse.lebaut@gmail.com" target="_blank"><img src="../assets/img/icons/square-envelope-solid.svg" alt=""></a>
                 <a class="contact-logo" href="https://github.com/clarisse-lebaut" target="_blank"><img src="../assets/img/icons/square-github.svg" alt=""></a>
               </section>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio officiis quam minus, amet quod ad aperiam architecto nobis non, 
-                dolore omnis quia nihil! Soluta nemo iure sit amet sequi iusto dolorem deserunt iste quaerat a, mollitia alias omnis quis, 
-                doloremque magnam saepe nisi neque! Molestiae praesentium autem quibusdam earum quos.
+                Créative avec un parcours atypique, je suis toujours prête à relever des défis. 
+                L'innovation est au cœur de ma démarche, et j'aime apporter des idées nouvelles et des solutions originales afin de crée des outils originaux.
               </p>
             </div>
             <div >
-              <p>Atouts</p>
+              <p><b>Atouts</b></p>
               <div class="atout-ul">
                 <li class="atout-li">Autonome</li>
                 <li class="atout-li">Réactive</li>
@@ -45,7 +44,7 @@ include "./components/header.php";
               </div>
 
               <div>
-                <p>Logiciels</p>
+                <p><b>Logiciels et langages de programmations</b></p>
                 <div class="competences-ul">
                   <img class="logo-logiciel" src="../assets/img/icons/html5-brands-solid.svg" alt="logo HTML5">
                   <img class="logo-logiciel" src="../assets/img/icons/css3-alt-brands-solid.svg" alt="logo CSS3">
@@ -57,6 +56,14 @@ include "./components/header.php";
                   <img class="logo-logiciel" src="../assets/img/icons/python-brands-solid.svg" alt="logo Python">
                   <img class="logo-logiciel" src="../assets/img/icons/node-brands-solid.svg" alt="logo NodeJS">
                   <img class="logo-logiciel" src="../assets/img/icons/react-brands-solid.svg" alt="logo ReactJS">
+                  <img class="logo-logiciel" src="../assets/img/icons/mongo.svg" alt="logo MongoDB">
+                  <img class="logo-logiciel" src="../assets/img/icons/postman.svg" alt="logo Postman">
+                  <img class="logo-logiciel-2" src="../assets/img/icons/mysql.png" alt="logo My SQL">
+                  <img class="logo-logiciel" src="../assets/img/icons/photoshop.png" alt="logo Photoshop">
+                  <img class="logo-logiciel-2" src="../assets/img/icons/illustrator.png" alt="logo Illustrator">
+                  <img class="logo-logiciel" src="../assets/img/icons/musescore.svg" alt="logo Musescore">
+                  <img class="logo-logiciel-2" src="../assets/img/icons/maxmsp.png" alt="logo MaxMSP">
+                  <img class="logo-logiciel-2" src="../assets/img/icons/puredata.png" alt="logo Pure Data">
                 </div>
             </div>
          </div>
@@ -138,8 +145,7 @@ include "./components/header.php";
             <div class="card-experience">
                 <p class="date-experience"><b>Janvier - Août 2022</b></p>
                 <p class="titre-experience"><b>Service Civique à Pôle Emploi</b><br>Martigues (13500)</p>
-                <p>Description de la mission</p>
-                <ul>
+                  <ul>
                   <li>Aide à l’insertion des usagers en informatique et numérique actualisation</li>
                   <br>
                   <li>(Ré)Inscription</li>
@@ -153,7 +159,6 @@ include "./components/header.php";
             <div class="card-experience">
                 <p class="date-experience"><b>Juillet - Août 2021</b></p>
                 <p class="titre-experience"><b>Auxiliaire contractuelle</b><br>Trésorerie Salon de Provence (13290)</p>
-                <p>Description de la mission</p>
                   <ul>
                     <li>Archivage</li>
                     <br>
@@ -174,7 +179,6 @@ include "./components/header.php";
             <div class="card-experience">
                 <p class="date-experience"><b>Juillet 2018</b></p>
                 <p class="titre-experience"><b>Stage Régie Cinémagis</b><br>Martigues (13500)</p>
-                <p>Description de la mission</p>
                   <ul>
                     <li>Gestion matériel</li>
                     <br>
@@ -187,7 +191,6 @@ include "./components/header.php";
             <div class="card-experience">
                 <p class="date-experience"><b>Juillet 2017</b></p>
                 <p class="titre-experience"><b>Stage Son Cinémagis</b><br>Martigues (13500)</p>
-                <p>Description de la mission</p>
                   <ul>
                     <li>Inventaire matériel</li>
                     <br>
@@ -198,7 +201,6 @@ include "./components/header.php";
             <div class="card-experience">
                 <p class="date-experience"><b>Juillet 2016</b></p>
                 <p class="titre-experience"><b>CDD Service RH à l'Institut de Recherche et du Dévelopemment</b><br>Marseille (13500)</p>
-                <p>Description de la mission</p>
                   <ul>
                     <li>Accueil téléphonique</li>
                     <br>
@@ -215,7 +217,6 @@ include "./components/header.php";
             <div class="card-experience">
                 <p class="date-experience"><b>Août - Septembre 2015</b></p>
                 <p class="titre-experience"><b>Auxiliaire contractuelle</b><br>Trésorerie de Martigues (13500)</p>
-                <p>Description de la mission</p>
                   <ul>
                     <li>Classement et archivage des mandats Martigues et Salon de Provence</li>
                     <br>
@@ -224,7 +225,7 @@ include "./components/header.php";
             </div>  
           </section>
           <div>
-            <button class="btn-cv"><img src="../assets/img/icons/download-solid.svg" alt=""><p>Mon CV</p></button>
+            <button class="btn-cv"><img src="../assets/img/icons/download-solid.svg" alt=""><a href="files/cv.pdf" target="_blank">Mon CV</a></button>
           </div>
       </section>
     </main>

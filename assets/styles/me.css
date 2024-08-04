@@ -6,7 +6,7 @@
 }
 .title-page-projects {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 /* --------------------------------- */
@@ -90,7 +90,7 @@
   margin-top: 25px;
 }
 .contact-logo {
-  width: 5%;
+  width: 4%;
   aspect-ratio: 1/1;
   transition: scale 350ms ease, opacity 450ms ease;
 }
@@ -124,13 +124,20 @@
   border-radius: 10px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   list-style-type: none;
   gap: 2rem;
   box-shadow: inset lightgray 0 5px 15px 0;
 }
 
 .logo-logiciel {
-  width: 5%;
+  width: 3.5%;
+  height: 3.5%;
+}
+.logo-logiciel-2 {
+  width: 6%;
+  height: 6%;
 }
 
 /* ------------------------- */
@@ -189,7 +196,8 @@
 .btn-cv {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  gap: 2rem;
   background-color: #4682a9;
   border: none;
   border-radius: 10px;
@@ -197,9 +205,14 @@
   margin-top: 50px;
   padding: 15px;
 }
-.btn-cv > p {
-  font-size: 20px;
-  font-weight: bold;
+.btn-cv > a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+.btn-cv > a:hover {
+  font-size: 25px;
+  color: black;
 }
 .btn-cv > img {
   width: 15%;
