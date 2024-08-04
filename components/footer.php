@@ -20,10 +20,6 @@
             <li class="main-footer-li"><a class="main-footer-a" href="index.php?page=me">Présentation</a></li>
             <li class="main-footer-li"><a class="main-footer-a" href="files/document.pdf" target="_blank">Mon CV</a></li>
         </div>
-        <div>
-            <p class="title-footer-box">A propos</p>
-            <li class="main-footer-li"><a class="main-footer-a" href="index.php?page=detail">Mon portfolio</a></li>
-        </div>
     </section>
     <section class="section-logo">
         <a href="https://linkedin.com/in/clarisse-le-baut-161499235" target="_blank">

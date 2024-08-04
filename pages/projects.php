@@ -9,14 +9,14 @@ include "./components/header.php";
     <div class="title-page-projects">
         <h1>MES PROJETS</h1>
         <p>
-          Grande adoratrice de l'organisation, j'ai priviligié un rangement et une présentation par thème des différents projets sur lesquel je me lance corps et âme. 
+          Grande adoratrice de l'organisation, un rangement et une présentation par thème de mes différents projets est priviligié. 
         </p>
         <p>
-          Si certians sont réalisé au cour des différents formations que j'ai suivi, d'autre sont fait à la demande,
-          et pas mal d'entre eux sont d'odre personnel parce que, comme j'ai souvent pu l'entendre, le talent c'est 10% de chance et 90% de travail !
+          Si certians ont été réalisé dans les différents formations que j'ai suivi, d'autre sont fait à la demande,<br>
+          tandis que les auters sont d'odre personnel. Comme j'ai souvent pu l'entendre, le talent c'est 10% de chance et 90% de travail !
         </p>
         <p>
-          J'espère pouvoir continuer à remplir cette page avec de nombreuse autres cétegories !
+          Un objectif : continuer à remplir cette page avec de nombreuse autres cétegories !
         </p>
     </div>
 

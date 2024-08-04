@@ -27,10 +27,6 @@ function loadPage($page) {
             include 'pages/me.php';
             break;
 
-        case 'about':
-            include 'pages/about.php';
-            break;
-
         default:
             include 'pages/404.php';
             break;

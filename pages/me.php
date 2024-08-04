@@ -29,8 +29,9 @@ include "./components/header.php";
                 <a class="contact-logo" href="https://github.com/clarisse-lebaut" target="_blank"><img src="../assets/img/icons/square-github.svg" alt=""></a>
               </section>
               <p>
-                Créative avec un parcours atypique, je suis toujours prête à relever des défis. 
-                L'innovation est au cœur de ma démarche, et j'aime apporter des idées nouvelles et des solutions originales afin de crée des outils originaux.
+                Créative au parcours atypique, je suis toujours prête à relever des défis.
+                L'innovation est au cœur de ma démarche, et j'aime apporter des idées nouvelles afin de crée des outils originaux.
+                Experte en rien m'a-t-on déjà dit... mais curieuse de tout : je préfère dire que je suis sans limites !
               </p>
             </div>
             <div >
