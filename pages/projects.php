@@ -12,8 +12,8 @@ include "./components/header.php";
           Grande adoratrice de l'organisation, un rangement et une présentation par thème de mes différents projets est priviligié. 
         </p>
         <p>
-          Si certians ont été réalisé dans les différents formations que j'ai suivi, d'autre sont fait à la demande,<br>
-          tandis que les auters sont d'odre personnel. Comme j'ai souvent pu l'entendre, le talent c'est 10% de chance et 90% de travail !
+          Si certains ont été réalisé dans les différents formations que j'ai suivi, d'autres sont fait à la demande,<br>
+          quand la plupart sont d'odre personnel. Comme j'ai souvent pu l'entendre, le talent c'est 10% de chance et 90% de travail !
         </p>
         <p>
           Un objectif : continuer à remplir cette page avec de nombreuse autres cétegories !

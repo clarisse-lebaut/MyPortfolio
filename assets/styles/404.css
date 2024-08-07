@@ -1,0 +1,32 @@
+.title-page-projects {
+  text-align: center;
+  margin-top: 50px;
+}
+.container-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.avatar {
+  width: 30%;
+  transition: filter 250ms ease-in-out, transform 250ms ease-in-out;
+  transform: scale(1.2); /* Utiliser transform au lieu de scale */
+  animation: pulse-shadow 2s ease-in-out infinite; /* Appliquer l'animation en permanence */
+}
+
+@keyframes pulse-shadow {
+  0% {
+    filter: drop-shadow(0 0 2rem #91c8e4); /* Ombre de base */
+  }
+  25% {
+    filter: drop-shadow(0 0 2rem #749bc2); /* Ombre de base */
+  }
+  50% {
+    filter: drop-shadow(0 0 2rem #4682a9); /* Ombre plus grande */
+  }
+  100% {
+    filter: drop-shadow(0 0 2rem #91c8e4); /* Ombre de base */
+  }
+}

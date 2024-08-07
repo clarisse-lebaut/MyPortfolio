@@ -55,34 +55,39 @@ document.addEventListener("DOMContentLoaded", () => {
     function displayProjects(projects) {
         container.innerHTML = ''; // Vider le conteneur avant d'ajouter les projets filtrés
         projects.forEach(project => {
-        const card = document.createElement('div');
-                    card.className = 'card-container';
-                    card.innerHTML = `
-                    <div class="details-projects-header">
-                        <p class="card-text title-project">${project.title}</p>
-                        <div class="color-project">
-                            <p>insérer la charte phrahique</p> 
-                        </div>
-                    </div>
-                    <div class="details-projects">
-                        <p class="card-description">${project.description}</p>
-                         <p class="card-description">${project.languages}</p>
-                        <p class="card-description">${project.outils}</p>
-                    </div>
-                        <div class="grid-container">
-                        <div class="grid-item one">
-                            <video class="card-pic" controls>
-                                <source src="${project.video}" type="video/mp4">
-                                Votre navigateur ne supporte pas la balise vidéo.
-                            </video>
-                        </div>
-                            <div class="grid-item"><img class="card-pic" src="${project.image_one}" alt="${project.title}"></div>
-                            <div class="grid-item"><img class="card-pic" src="${project.image_two}" alt="${project.title}"></div>
-                            <div class="grid-item"><img class="card-pic" src="${project.image_three}" alt="${project.title}"></div>
-                            <div class="grid-item"><img class="card-pic" src="${project.image_four}" alt="${project.title}"></div>
-                            <div class="grid-item"><img class="card-pic" src="${project.image_five}" alt="${project.title}"></div>
-                        </div>
-                    `;
+            const card = document.createElement('div');
+            card.className = 'card-container';
+
+            // Vérification des champs avant de les ajouter
+            const imagesHtml = [project.image_one, project.image_two, project.image_three, project.image_four, project.image_five]
+                .filter(image => image) // Filtrer les images non définies ou vides
+                .map(image => `<div class="grid-item"><img class="card-pic" src="${image}" alt="${project.title}"></div>`)
+                .join('');
+
+            const videoHtml = project.video ? `
+                <div class="grid-item one">
+                    <video class="card-pic" controls>
+                        <source src="${project.video}" type="video/mp4">
+                        Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
+                </div>
+            ` : '';
+
+            card.innerHTML = `
+                <div class="details-projects-header">
+                    <p class="card-text title-project">${project.title}</p>
+                    <div class="color-project">${project.charte}</div>
+                </div>
+                <div class="details-projects">
+                    ${project.description ? `<p class="card-description">${project.description}</p>` : ''}
+                    ${project.languages ? `<p class="card-description">${project.languages}</p>` : ''}
+                    ${project.outils ? `<p class="card-description">${project.outils}</p>` : ''}
+                </div>
+                <div class="grid-container">
+                    ${videoHtml}
+                    ${imagesHtml}
+                </div>
+            `;
             container.appendChild(card);
         });
     }

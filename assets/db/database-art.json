@@ -1,118 +1,118 @@
 [
   {
     "path": "../assets/img/illustration/AlbumPochetteBack.jpg",
-    "description": "Face avant - Pochette de l'album CD pour Le Métalleux Geek, faite sur Photoshop",
+    "description": "Face avant - Pochette de l'album CD pour 'Le Métalleux Geek', conçu sur Photoshop",
     "type": "album"
   },
   {
     "path": "../assets/img/illustration/AlbumPochetteFace.jpg",
-    "description": "Face arrière - Pochette de l'album CD pour Le Métalleux Geek, faite sur Photoshop",
+    "description": "Face arrière - Pochette de l'album CD pour Le Métalleux Geek, conçu sur Photoshop",
     "type": "album"
   },
   {
     "path": "../assets/img/illustration/BD1.jpeg",
-    "description": "BD one shot - réalisé à Ynov",
+    "description": "BD en 1 page - réalisé à Ynov",
     "type": "bd"
   },
   {
     "path": "../assets/img/illustration/BDStrip2.jpeg",
-    "description": "BD en 2 pages, raconte les péripétie d'un personnage qui devait se rendre en cour - réalisé à Ynov",
+    "description": "BD en 2 pages, raconte les péripétie d'un personnage se rendant en cour - réalisé à Ynov",
     "type": "bd"
   },
   {
     "path": "../assets/img/illustration/BDStrip1.jpeg",
-    "description": "BD en 2 pages, raconte les péripétie d'un personnage qui devait se rendre en cour - réalisé à Ynov",
+    "description": "BD en 2 pages, raconte les péripétie d'un personnage qui devait se rendant en cour - réalisé à Ynov",
     "type": "bd"
   },
 
   {
     "path": "../assets/img/illustration/Capture.png",
-    "description": "Logo d'entrerpise réalise sur commande avec Illustrator, respect d'une charte graphique",
+    "description": "Logo d'entrerpise avec Illustrator - réalisé sur commande",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Logo.jpeg",
-    "description": "Logo - rélalisé à Ynov",
+    "description": "Logo - réalisé à Ynov",
     "type": "peinture"
   },
   {
     "path": "../assets/img/illustration/flyers.jpg",
-    "description": "Flyer - Concert projet C-A-R en licence Musicologie à Aix en Provence",
+    "description": "Flyer - Concert dans le cadre d'un projet de Création d'Action et de Recherche - rélaisé en licence de Musicologie",
     "type": "flyer"
   },
 
   {
     "path": "../assets/img/illustration/Bluecity.png",
-    "description": "Affiche vectoriel réalisé sur illustrator afin de prendre en main les outils de perspective",
+    "description": "Affiche vectoriel réalisé sur illustrator pour prendre en main les outils de perspective",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/illustration.jpeg",
-    "description": "Illustration conte pour enfants - réalisé à Ynov",
+    "description": "Illustration pour un conte pour enfants - réalisé à Ynov",
     "type": "peinture"
   },
 
   {
     "path": "../assets/img/illustration/Batman.png",
-    "description": "Batman - minimalime - image vectoriel réalisé sur Illustrator",
+    "description": "Batman minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Superman.png",
-    "description": "Superman - minimalime - image vectoriel réalisé sur Illustrator",
+    "description": "Superman minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/GreenLantern.png",
-    "description": "Green Lantern - minimalime - image vectoriel réalisé sur Illustrator",
+    "description": "Green Lantern minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Flash.png",
-    "description": "Flash - minimalime -image vectoriel réalisé sur Illustrator",
+    "description": "Flash minimaliste -image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Spiderman.jpeg",
-    "description": "Spiderman - dessin rélaisé au crayon gris HB afin de travailler les ombres",
+    "description": "Spiderman - dessin fait au crayon HB - travail de l'ombrage",
     "type": "croquis"
   },
 
   {
     "path": "../assets/img/illustration/Joker.png",
-    "description": "TLe Joker - minimalime -image vectoriel réalisé sur Illustrator",
+    "description": "Le Joker minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Luthor.png",
-    "description": "Lex Luthor - minimalime -image vectoriel réalisé sur Illustrator",
+    "description": "Lex Luthor minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Sinestro.png",
-    "description": "Sinistro - minimalime -image vectoriel réalisé sur Illustrator",
+    "description": "Sinistro minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/thwane.png",
-    "description": "Négatif de Flash - minimalime -image vectoriel réalisé sur Illustrator",
+    "description": "Négatif de Flash minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/Wolverine.jpeg",
-    "description": "Wolverine - dessin rélaisé au crayon gris HB afin de travailler les ombres",
+    "description": "Wolverine - dessin conçu au crayon HB afin de travailler les ombres",
     "type": "crayon"
   },
 
   {
     "path": "../assets/img/illustration/Perso.jpeg",
-    "description": "Maquette personnage masculine - réalisé à Ynov",
+    "description": "Maquette d'un personnage masculin - réalisé à Ynov",
     "type": "crayon"
   },
 
   {
     "path": "../assets/img/illustration/Chaussures2.jpeg",
-    "description": "Croquis de chaussures travail des proportions en design de produit - réalisé à Ynov",
+    "description": "Croquis de chaussures, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
@@ -123,7 +123,7 @@
 
   {
     "path": "../assets/img/illustration/Chaussures3.jpeg",
-    "description": "Croquis de chaussures travail des proportions en design de produit - réalisé à Ynov",
+    "description": "Croquis de chaussures, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
@@ -154,7 +154,7 @@
   },
   {
     "path": "../assets/img/illustration/Pastel.jpeg",
-    "description": "Travail de la pastel grasse - pointillisme de notre système solaire",
+    "description": "Pointillisme du système solaire, travail de la pastel grasse",
     "type": "pastel"
   },
   {
@@ -179,12 +179,12 @@
   },
   {
     "path": "../assets/img/illustration/NYB.png",
-    "description": "Illustration vectoriel sur illustrator d'un bâtiment fictif afin de prendre en main les outils de perspective",
+    "description": "Illustration vectoriel sur illustrator d'un bâtiment fictif - utilisation des outils de perspective",
     "type": "illustrator"
   },
   {
     "path": "../assets/img/illustration/oiseau.jpeg",
-    "description": "Crayonnage animal, Cygne - travail des ombres et des relfets",
+    "description": "Crayonnage animal, Cygne - travail de l'ombrage et des relfets",
     "type": "crayon"
   },
   {
@@ -219,12 +219,12 @@
   },
   {
     "path": "../assets/img/illustration/Aquarelle.jpeg",
-    "description": "Colorisation d'un pikachu aviateur, travail de l'aquarelle",
+    "description": "Colorisation d'un pikachu aviateur - travail de l'aquarelle",
     "type": "aquarelle"
   },
   {
     "path": "../assets/img/illustration/Picsou.jpeg",
-    "description": "Colorisation de Picsou, travail du feutre",
+    "description": "Colorisation de Picsou - travail du feutre",
     "type": "feutre"
   },
   {
@@ -259,13 +259,13 @@
   },
   {
     "path": "../assets/img/illustration/mignion.jpg",
-    "description": "Illustration réalisé sur demande - Travail de la peinture acrylique",
+    "description": "Illustration, travail de la peinture acrylique - réalisé sur demande",
     "type": "peinture"
   },
 
   {
     "path": "../assets/img/illustration/Anarchie.jpg",
-    "description": "Illustration réalisé sur demande - thème de l'anarchie",
+    "description": "Illustration, thème de l'anarchie - réalisé sur demande",
     "type": "peinture"
   },
   {
@@ -275,7 +275,7 @@
   },
   {
     "path": "../assets/img/illustration/baymax.jpg",
-    "description": "Baymax - association des couleurs avec une émotion afin de crée un élement amovible, possibilité de les mettre dans l'odre souhaité à l'aide de scotch/scrath placé sur les 4 rebords des toiles",
+    "description": "Baymax, travail des couleurs associé avec une émotion, création d'un élement amovible afin de les positionnée dans l'odre souhaité (scotch/scrath placé sur les 4 rebords des toiles)",
     "type": "peinture"
   }
 ]

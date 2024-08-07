@@ -14,7 +14,7 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Whiskey",
+    "title": "Whisky",
     "format": "Audio",
     "audio": "../assets/music/Whiskey.mp3",
     "type": "Paroles",
@@ -91,16 +91,23 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Une jeunesse à moi - V1",
+    "title": "Une jeunesse à moi (V1)",
     "format": "Audio",
     "audio": "../assets/music/jeune.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
-    "title": "Une jeunesse à moi - V2",
+    "title": "Une jeunesse à moi (V2)",
     "format": "Audio",
     "audio": "../assets/music/jeunesse.mp3",
+    "type": "Paroles",
+    "plateforme": "Suno"
+  },
+  {
+    "title": "Une jeunesse à moi (V3)",
+    "format": "Audio",
+    "audio": "../assets/music/passé.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
@@ -119,13 +126,6 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Une jeunesse à moi - V3",
-    "format": "Audio",
-    "audio": "../assets/music/passé.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "Fairy night",
     "format": "Audio",
     "audio": "../assets/music/night.mp3",
@@ -133,28 +133,28 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Sample 1",
+    "title": "Sample Start",
     "format": "Audio",
     "audio": "../assets/music/sample1.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
-    "title": "Sample 2",
+    "title": "Sample To Continue",
     "format": "Audio",
     "audio": "../assets/music/sample2.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
-    "title": "Sample 3",
+    "title": "Sample To Be",
     "format": "Audio",
     "audio": "../assets/music/sample3.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
-    "title": "Sample 5",
+    "title": "Sample End ?",
     "format": "Audio",
     "audio": "../assets/music/sample5.mp3",
     "type": "Instrumental",
@@ -189,7 +189,7 @@
     "plateforme": "Garageband"
   },
   {
-    "title": "Metro, Boulot, Dodo",
+    "title": "Métro, Boulot, Dodo",
     "format": "Image",
     "img1": "../assets/music/Partitiongraphique1.jpg",
     "img2": "../assets/music/Partitiongraphique2.jpg",
@@ -201,7 +201,7 @@
     "plateforme": ""
   },
   {
-    "title": "Basse",
+    "title": "Le rythme au trippes",
     "format": "Image",
     "img1": "../assets/music/basse1.png",
     "img2": "../assets/music/basse2.png",
