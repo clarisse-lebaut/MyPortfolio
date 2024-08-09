@@ -1,41 +1,66 @@
-.main-container {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
+@media screen and (max-width: 426px) {
+  .main-container {
+    display: none;
+  }
+
+  .main-container-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text-mobile {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.499);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .a-mobile {
+    text-decoration: none;
+  }
 }
-.container {
-  position: relative;
-  margin: 1rem;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.content {
-  position: relative;
-}
-.pic {
-  border-radius: 10px;
-  width: 200px;
-  height: auto;
-  display: block;
-}
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  text-align: center;
-  padding: 10px;
-  box-sizing: border-box;
-  border-radius: 10px; /* Optionnel, pour arrondir les coins du texte */
-  font-size: 1.5rem; /* Ajustez la taille du texte comme nécessaire */
-  white-space: nowrap; /* Évite que le texte ne se divise en plusieurs lignes */
-  transition: transform 0.3s; /* Ajoute une transition fluide pour le mouvement */
-}
-.text:hover {
-  transform: translate(
-    -50%,
-    -80%
-  ); /* Déplace le texte légèrement vers le bas lors du survol */
+
+@media screen and (min-width: 426px) {
+  .main-container-mobile {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .container {
+    position: relative;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .content {
+    position: relative;
+  }
+  .pic {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    display: block;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px; /* Optionnel, pour arrondir les coins du texte */
+    font-size: 1.5rem; /* Ajustez la taille du texte comme nécessaire */
+    white-space: nowrap; /* Évite que le texte ne se divise en plusieurs lignes */
+    transition: transform 0.3s; /* Ajoute une transition fluide pour le mouvement */
+  }
+  .text:hover {
+    transform: translate(-50%, -80%); /* Déplace le texte légèrement vers le bas lors du survol */
+  }
 }
