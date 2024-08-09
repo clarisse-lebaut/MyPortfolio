@@ -1,82 +1,184 @@
-.title-page-projects {
-  text-align: center;
-  margin-top: 50px;
+@media screen and (max-width: 768px) {
+  /* Masque les filtres en mode desktop */
+  .filter {
+    display: none;
+  }
+
+  /* Titre de la page */
+  .title-page-projects {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /* Conteneur principal pour les cartes musicales */
+  .main-container-music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 25px;
+    margin-bottom: 50px;
+  }
+
+  /* Style des cartes musicales */
+  .card-container-music,
+  .card-container-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8ff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 5px 15px 0px lightgray;
+    width: 100%;
+  }
+
+  /* Images dans les cartes musicales */
+  .img-music {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+
+  /* Conteneur d'images */
+  .container-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Vidéo musicale */
+  .video-music {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Filtre pour mobile */
+  .filter-mobil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+  }
+
+  /* Style du select en mode mobile */
+  .filter-mobil select {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 5px 15px 0 lightgray;
+    background-color: white;
+    color: #333;
+    font-family: "Finger Paint", sans-serif;
+    font-size: 16px;
+  }
 }
 
-/* -------------------------- */
+@media screen and (min-width: 768px) {
+  /* Masque le filtre pour mobile en mode desktop */
+  .filter-mobil {
+    display: none;
+  }
 
-.main-container-music {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding: 0 50px 0 50px;
-  margin-bottom: 50px;
-}
-.card-container-music {
-  background-color: #f8f8ff;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 5px 10px 0px lightgray;
-  align-items: center;
-}
-.card-container-image {
-  background-color: #f8f8ff;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 5px 10px 0px lightgray;
-}
-.img-music {
-  width: 350px;
-  transition: opacity 350ms ease-in-out, scale 350ms ease-in-out;
-}
-.card-container-image:has(.img-music:hover) .img-music:not(.img-music:hover) {
-  opacity: 0.3;
-  z-index: 1;
-}
-.img-music:hover {
-  scale: 1.5;
-  z-index: 1;
-}
-.container-img {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3.5rem;
-  justify-content: center;
-  align-items: center;
-}
-.video-music {
-  width: 100%; /* ou toute autre largeur souhaitée, par exemple 50%, 400px, etc. */
-  max-width: 800px; /* Limite la largeur maximale de la vidéo */
-  height: auto; /* Maintient le ratio d'aspect */
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  /* Titre de la page */
+  .title-page-projects {
+    text-align: center;
+    margin-top: 50px;
+  }
 
-/* -------------------------- */
+  /* Conteneur principal pour les cartes musicales */
+  .main-container-music {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
 
-.filter {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-  margin: 50px;
-}
-.filter-btn {
-  border-radius: 50px;
-  border: none;
-  padding: 20px;
-  background-color: #4682a9;
-  color: #f6f4eb;
-  font-family: "Finger Paint", sans-serif;
-  font-size: 15px;
-}
-.filter-btn:hover {
-  box-shadow: 0 5px 10px 0px lightgray;
-  cursor: pointer;
-}
-.filter-btn:active {
-  transform: translateY(5px);
-  cursor: pointer;
+  /* Style des cartes musicales */
+  .card-container-music,
+  .card-container-image {
+    background-color: #f8f8ff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px 0px lightgray;
+    flex: 1;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  /* Images dans les cartes musicales */
+  .img-music {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+  }
+
+  /* Effet de survol pour les images */
+  .card-container-image:has(.img-music:hover) .img-music:not(.img-music:hover) {
+    opacity: 0.3;
+    z-index: 1;
+  }
+  .img-music:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+
+  /* Conteneur d'images */
+  .container-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Vidéo musicale */
+  .video-music {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Filtre pour desktop */
+  .filter {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 50px;
+  }
+
+  /* Style des boutons de filtre */
+  .filter-btn {
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+    background-color: #4682a9;
+    color: #f6f4eb;
+    font-family: "Finger Paint", sans-serif;
+    font-size: 15px;
+  }
+
+  /* Effets de survol et d'activation pour les boutons de filtre */
+  .filter-btn:hover {
+    box-shadow: 0 5px 10px 0px lightgray;
+    cursor: pointer;
+  }
+  .filter-btn:active {
+    transform: translateY(5px);
+    cursor: pointer;
+  }
 }

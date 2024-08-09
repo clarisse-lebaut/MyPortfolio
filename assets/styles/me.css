@@ -1,225 +1,480 @@
 .main {
-  margin: 50px;
   gap: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 50px;
 }
 .title-page-projects {
   text-align: center;
   margin-top: 35px;
 }
 
-/* --------------------------------- */
+@media screen and (min-width: 1024px) and (max-width: 1044px) {
+  .presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .cv-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .cv-ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  .cv-li {
+    color: white;
+    text-decoration: none;
+    background-color: #749bc2;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .container-contact-logo {
+    display: flex;
+    gap: 2rem;
+  }
+  .cv-ul > .cv-li {
+    transition: scale 250ms ease, opacity 350ms linear;
+  }
+  .cv-ul:has(.cv-li:hover) .cv-li:not(:hover) {
+    scale: 0.95;
+    opacity: 0.7;
+  }
+  .a-contact {
+    text-decoration: none;
+    color: white;
+  }
+  .a-contact:hover {
+    color: black;
+  }
 
-.cv-nav {
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-}
-.cv-ul {
-  list-style-type: none;
-  display: flex;
-  gap: 50px;
-}
-.cv-li {
-  color: white;
-  text-decoration: none;
-  background-color: #749bc2;
-  border-radius: 25px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-}
-.container-contact-logo {
-  display: flex;
-  gap: 2rem;
-}
-.cv-ul > .cv-li {
-  transition: scale 250ms ease, opacity 350ms linear;
-}
-.cv-ul:has(.cv-li:hover) .cv-li:not(:hover) {
-  scale: 0.95;
-  opacity: 0.7;
-}
-.a-contact {
-  text-decoration: none;
-  color: white;
-}
-.a-contact:hover {
-  color: black;
-}
+  /* --- */
 
-/* ---------------------------------- */
+  .formation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
 
-.presentation {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.card-description-me {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  padding: 0 3.5rem 3.5rem 3.5rem;
-  width: 70%;
-
-  background: #91c8e4b8;
-  box-shadow: 0 8px 32px 0 lightgray;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-.avatar {
-  width: 30%;
-  height: 30%;
-}
-.first-elements {
-  display: flex;
-  flex-direction: column;
-}
-.name {
-  color: white;
-  font-size: 40px;
-  margin: 0;
-  font-family: "Finger Paint", sans-serif;
-}
-.container-contact-logo {
-  display: flex;
-  gap: 2rem;
-  margin-top: 25px;
-}
-.contact-logo {
-  width: 4%;
-  aspect-ratio: 1/1;
-  transition: scale 350ms ease, opacity 450ms ease;
-}
-.contact-logo:hover {
-  scale: 1.2;
-}
-.container-contact-logo:has(.contact-logo:hover) .contact-logo:not(:hover) {
-  opacity: 0.3;
-}
-.atout-ul {
-  display: flex;
-  list-style-type: none;
-  gap: 2rem;
-}
-.atout-li {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: inset lightgray 0 5px 15px 0;
-}
-.atout-ul > .atout-li {
-  transition: opacity 450ms linear;
-}
-.atout-ul:has(.atout-li:hover) .atout-li:not(:hover) {
-  opacity: 0.3;
+  /* --- */
 }
 
-.competences-ul {
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style-type: none;
-  gap: 2rem;
-  box-shadow: inset lightgray 0 5px 15px 0;
+@media screen and (max-width: 426px) {
+  /* -------- */
+  .main {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .cv-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .cv-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .cv-li {
+    color: white;
+    text-decoration: none;
+    background-color: #749bc2;
+    box-shadow: lightgrey 0 5px 15px 0;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 2rem 0 2rem;
+  }
+  .a-contact {
+    text-decoration: none;
+    color: white;
+  }
+
+  /**/
+
+  .btn-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #4682a9;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+  }
+  .btn-cv > a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  .btn-cv > img {
+    width: 15%;
+  }
+
+  /*---*/
+
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card-description-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 3.5rem 3.5rem 3.5rem;
+    width: 70%;
+
+    background: #91c8e4b8;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .avatar {
+    width: 100%;
+    height: 100%;
+  }
+  .first-elements {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    font-family: "Finger Paint", sans-serif;
+  }
+  .contact-logo {
+    display: none;
+  }
+  .atout-ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2rem;
+  }
+  .atout-li {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset lightgray 0 5px 15px 0;
+  }
+  .competences-ul {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    box-shadow: inset lightgray 0 5px 15px 0;
+  }
+
+  .logo-logiciel {
+    width: 25%;
+    height: 25%;
+  }
+  .logo-logiciel-2 {
+    width: 25%;
+    height: 25%;
+  }
+
+  /* --- */
+
+  .formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card-formation {
+    background-color: white;
+    padding: 20px;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .date-formation,
+  .date-experience {
+    background-color: #f6f4eb;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: lightgray inset 0 5px 5px 0;
+    text-align: center;
+  }
+  .titre-formation {
+    background-color: #91c8e4;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .diplome {
+    text-align: center;
+  }
+
+  /* -------------------------- */
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card-experience {
+    background-color: white;
+    padding: 20px;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .titre-experience {
+    background-color: #749bc2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
 }
 
-.logo-logiciel {
-  width: 3.5%;
-  height: 3.5%;
-}
-.logo-logiciel-2 {
-  width: 6%;
-  height: 6%;
-}
+@media screen and (min-width: 426px) {
+  .cv-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .cv-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+  }
+  .cv-li {
+    color: white;
+    text-decoration: none;
+    background-color: #749bc2;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .container-contact-logo {
+    display: flex;
+    gap: 2rem;
+  }
+  .cv-ul > .cv-li {
+    transition: scale 250ms ease, opacity 350ms linear;
+  }
+  .cv-ul:has(.cv-li:hover) .cv-li:not(:hover) {
+    scale: 0.95;
+    opacity: 0.7;
+  }
+  .a-contact {
+    text-decoration: none;
+    color: white;
+  }
+  .a-contact:hover {
+    color: black;
+  }
 
-/* ------------------------- */
+  /* ---------------------------------- */
 
-.formation {
-  display: flex;
-  gap: 2rem;
-}
-.card-formation {
-  background-color: white;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: lightgray 0 5px 15px 0;
-}
-.date-formation,
-.date-experience {
-  background-color: #f6f4eb;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: lightgray inset 0 5px 5px 0;
-  text-align: center;
-}
-.titre-formation {
-  background-color: #91c8e4;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: lightgray 0 5px 15px 0;
-}
-.diplome {
-  text-align: center;
-}
+  .presentation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .card-description-me {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 0 3.5rem 3.5rem 3.5rem;
+    width: 70%;
 
-/* -------------------------- */
-.experience {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-}
-.card-experience {
-  background-color: white;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: lightgray 0 5px 15px 0;
-}
-.titre-experience {
-  background-color: #749bc2;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: lightgray 0 5px 15px 0;
-}
+    background: #91c8e4b8;
+    box-shadow: 0 8px 32px 0 lightgray;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .avatar {
+    width: 30%;
+    height: 30%;
+  }
+  .first-elements {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    font-family: "Finger Paint", sans-serif;
+  }
+  .container-contact-logo {
+    display: flex;
+    gap: 2rem;
+    margin-top: 25px;
+  }
+  .contact-logo {
+    width: 4%;
+    aspect-ratio: 1/1;
+    transition: scale 350ms ease, opacity 450ms ease;
+  }
+  .contact-logo:hover {
+    scale: 1.2;
+  }
+  .container-contact-logo:has(.contact-logo:hover) .contact-logo:not(:hover) {
+    opacity: 0.3;
+  }
+  .atout-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+  }
+  .atout-li {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset lightgray 0 5px 15px 0;
+  }
+  .atout-ul > .atout-li {
+    transition: opacity 450ms linear;
+  }
+  .atout-ul:has(.atout-li:hover) .atout-li:not(:hover) {
+    opacity: 0.3;
+  }
 
-/* -------- */
+  .competences-ul {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    box-shadow: inset lightgray 0 5px 15px 0;
+  }
 
-.btn-cv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  background-color: #4682a9;
-  border: none;
-  border-radius: 10px;
-  margin: auto;
-  margin-top: 50px;
-  padding: 15px;
-}
-.btn-cv > a {
-  font-size: 25px;
-  color: white;
-  text-decoration: none;
-}
-.btn-cv > a:hover {
-  font-size: 25px;
-  color: black;
-}
-.btn-cv > img {
-  width: 15%;
-}
-.btn-cv:hover {
-  box-shadow: lightgray 0 5px 15px 0;
-}
-.btn-cv:active {
-  transform: translateY(5px);
+  .logo-logiciel {
+    width: 3.5%;
+    height: 3.5%;
+  }
+  .logo-logiciel-2 {
+    width: 6%;
+    height: 6%;
+  }
+
+  /* ------------------------- */
+
+  .formation {
+    display: flex;
+    gap: 2rem;
+  }
+  .card-formation {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .date-formation,
+  .date-experience {
+    background-color: #f6f4eb;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: lightgray inset 0 5px 5px 0;
+    text-align: center;
+  }
+  .titre-formation {
+    background-color: #91c8e4;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .diplome {
+    text-align: center;
+  }
+
+  /* -------------------------- */
+  .experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  .card-experience {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .titre-experience {
+    background-color: #749bc2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+
+  /* -------- */
+
+  .btn-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #4682a9;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+  }
+  .btn-cv > a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  .btn-cv > a:hover {
+    font-size: 25px;
+    color: black;
+  }
+  .btn-cv > img {
+    width: 15%;
+  }
+  .btn-cv:hover {
+    box-shadow: lightgray 0 5px 15px 0;
+  }
+  .btn-cv:active {
+    transform: translateY(5px);
+  }
 }
