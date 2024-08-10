@@ -1,12 +1,5 @@
 [
   {
-    "title": "Solitude",
-    "format": "Audio",
-    "audio": "../assets/music/sound/alone.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "Conquête",
     "format": "Audio",
     "audio": "../assets/music/sound/conquête.mp3",
@@ -42,38 +35,10 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Midnight",
-    "format": "Audio",
-    "audio": "../assets/music/sound/midnight.mp3",
-    "type": "Instrumental",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Reverly",
-    "format": "Audio",
-    "audio": "../assets/music/sound/revelry.mp3",
-    "type": "Instrumental",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Stop this Game",
-    "format": "Audio",
-    "audio": "../assets/music/sound/stop.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "I can't breath",
     "format": "Audio",
     "audio": "../assets/music/sound/breath.mp3",
     "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Dance on the Moon",
-    "format": "Audio",
-    "audio": "../assets/music/sound/Dance.mp3",
-    "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
@@ -100,35 +65,14 @@
   {
     "title": "Une jeunesse à moi (V2)",
     "format": "Audio",
-    "audio": "../assets/music/sound/jeunesse.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Une jeunesse à moi (V3)",
-    "format": "Audio",
     "audio": "../assets/music/sound/passé.mp3",
     "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Moonlight Dance",
-    "format": "Audio",
-    "audio": "../assets/music/sound/MD.mp3",
-    "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Symphonie minimaliste",
     "format": "Audio",
     "audio": "../assets/music/sound/minimalisme.mp3",
-    "type": "Instrumental",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Fairy night",
-    "format": "Audio",
-    "audio": "../assets/music/sound/night.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
