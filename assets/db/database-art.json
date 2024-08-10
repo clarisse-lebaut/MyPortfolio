@@ -1,280 +1,280 @@
 [
   {
-    "path": "../assets/img/illustration/AlbumPochetteBack.jpg",
+    "path": "../assets/graphic/AlbumPochetteBack.jpg",
     "description": "Face avant - Pochette de l'album CD pour 'Le Métalleux Geek', conçu sur Photoshop",
     "type": "album"
   },
   {
-    "path": "../assets/img/illustration/AlbumPochetteFace.jpg",
+    "path": "../assets/graphic/AlbumPochetteFace.jpg",
     "description": "Face arrière - Pochette de l'album CD pour Le Métalleux Geek, conçu sur Photoshop",
     "type": "album"
   },
   {
-    "path": "../assets/img/illustration/BD1.jpeg",
+    "path": "../assets/graphic/BD1.jpeg",
     "description": "BD en 1 page - réalisé à Ynov",
     "type": "bd"
   },
   {
-    "path": "../assets/img/illustration/BDStrip2.jpeg",
+    "path": "../assets/graphic/BDStrip2.jpeg",
     "description": "BD en 2 pages, raconte les péripétie d'un personnage se rendant en cour - réalisé à Ynov",
     "type": "bd"
   },
   {
-    "path": "../assets/img/illustration/BDStrip1.jpeg",
+    "path": "../assets/graphic/BDStrip1.jpeg",
     "description": "BD en 2 pages, raconte les péripétie d'un personnage qui devait se rendant en cour - réalisé à Ynov",
     "type": "bd"
   },
 
   {
-    "path": "../assets/img/illustration/Capture.png",
+    "path": "../assets/graphic/Capture.png",
     "description": "Logo d'entrerpise avec Illustrator - réalisé sur commande",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Logo.jpeg",
+    "path": "../assets/graphic/Logo.jpeg",
     "description": "Logo - réalisé à Ynov",
     "type": "peinture"
   },
   {
-    "path": "../assets/img/illustration/flyers.jpg",
+    "path": "../assets/graphic/flyers.jpg",
     "description": "Flyer - Concert dans le cadre d'un projet de Création d'Action et de Recherche - rélaisé en licence de Musicologie",
     "type": "flyer"
   },
 
   {
-    "path": "../assets/img/illustration/Bluecity.png",
+    "path": "../assets/graphic/Bluecity.png",
     "description": "Affiche vectoriel réalisé sur illustrator pour prendre en main les outils de perspective",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/illustration.jpeg",
+    "path": "../assets/graphic/illustration.jpeg",
     "description": "Illustration pour un conte pour enfants - réalisé à Ynov",
     "type": "peinture"
   },
 
   {
-    "path": "../assets/img/illustration/Batman.png",
+    "path": "../assets/graphic/Batman.png",
     "description": "Batman minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Superman.png",
+    "path": "../assets/graphic/Superman.png",
     "description": "Superman minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/GreenLantern.png",
+    "path": "../assets/graphic/GreenLantern.png",
     "description": "Green Lantern minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Flash.png",
+    "path": "../assets/graphic/Flash.png",
     "description": "Flash minimaliste -image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Spiderman.jpeg",
+    "path": "../assets/graphic/Spiderman.jpeg",
     "description": "Spiderman - dessin fait au crayon HB - travail de l'ombrage",
     "type": "croquis"
   },
 
   {
-    "path": "../assets/img/illustration/Joker.png",
+    "path": "../assets/graphic/Joker.png",
     "description": "Le Joker minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Luthor.png",
+    "path": "../assets/graphic/Luthor.png",
     "description": "Lex Luthor minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Sinestro.png",
+    "path": "../assets/graphic/Sinestro.png",
     "description": "Sinistro minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/thwane.png",
+    "path": "../assets/graphic/thwane.png",
     "description": "Négatif de Flash minimaliste - image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/Wolverine.jpeg",
+    "path": "../assets/graphic/Wolverine.jpeg",
     "description": "Wolverine - dessin conçu au crayon HB afin de travailler les ombres",
     "type": "crayon"
   },
 
   {
-    "path": "../assets/img/illustration/Perso.jpeg",
+    "path": "../assets/graphic/Perso.jpeg",
     "description": "Maquette d'un personnage masculin - réalisé à Ynov",
     "type": "crayon"
   },
 
   {
-    "path": "../assets/img/illustration/Chaussures2.jpeg",
+    "path": "../assets/graphic/Chaussures2.jpeg",
     "description": "Croquis de chaussures, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/Chaussures1.jpeg",
+    "path": "../assets/graphic/Chaussures1.jpeg",
     "description": "Colorisation de chaussures - réalisé à Ynov",
     "type": "croquis"
   },
 
   {
-    "path": "../assets/img/illustration/Chaussures3.jpeg",
+    "path": "../assets/graphic/Chaussures3.jpeg",
     "description": "Croquis de chaussures, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/Chaussures4.jpeg",
+    "path": "../assets/graphic/Chaussures4.jpeg",
     "description": "Colorisation de chaussures - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/Sac1.jpeg",
+    "path": "../assets/graphic/Sac1.jpeg",
     "description": "Croquis sac à dos, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/Sac4.jpeg",
+    "path": "../assets/graphic/Sac4.jpeg",
     "description": "Colorisation sac à dos - réalisé à Ynov",
     "type": "croquis"
   },
 
   {
-    "path": "../assets/img/illustration/Sac2.jpeg",
+    "path": "../assets/graphic/Sac2.jpeg",
     "description": "Croquis sac à dos, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/Sac3.jpeg",
+    "path": "../assets/graphic/Sac3.jpeg",
     "description": "Colorisation sac à dos - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/Pastel.jpeg",
+    "path": "../assets/graphic/Pastel.jpeg",
     "description": "Pointillisme du système solaire, travail de la pastel grasse",
     "type": "pastel"
   },
   {
-    "path": "../assets/img/illustration/USB1.jpeg",
+    "path": "../assets/graphic/USB1.jpeg",
     "description": "Croquis clé USB, travail des proportions en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/USB2.jpeg",
+    "path": "../assets/graphic/USB2.jpeg",
     "description": "Croquis clé USB, travail de l'ombrage en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/USB3.jpeg",
+    "path": "../assets/graphic/USB3.jpeg",
     "description": "Colorisation clé USB - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/img/illustration/NYBCroquis.jpeg",
+    "path": "../assets/graphic/NYBCroquis.jpeg",
     "description": "Croquis d'un bâtiment fictif",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/NYB.png",
+    "path": "../assets/graphic/NYB.png",
     "description": "Illustration vectoriel sur illustrator d'un bâtiment fictif - utilisation des outils de perspective",
     "type": "illustrator"
   },
   {
-    "path": "../assets/img/illustration/oiseau.jpeg",
+    "path": "../assets/graphic/oiseau.jpeg",
     "description": "Crayonnage animal, Cygne - travail de l'ombrage et des relfets",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Zoro.jpeg",
+    "path": "../assets/graphic/Zoro.jpeg",
     "description": "Crayonnage personnage Zoro - travail de l'ombrage",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Luffy.jpeg",
+    "path": "../assets/graphic/Luffy.jpeg",
     "description": "Crayonnage personnage Luffy - travail de l'ombrage",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Luffy2.jpeg",
+    "path": "../assets/graphic/Luffy2.jpeg",
     "description": "Crayonnage personnage Luffy - travail de l'ombrage",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Natsu.jpeg",
+    "path": "../assets/graphic/Natsu.jpeg",
     "description": "Crayonnage personnage Natsu - travail de l'ombrage",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Luffy3.jpeg",
+    "path": "../assets/graphic/Luffy3.jpeg",
     "description": "Crayonnage personnage  Luffy - travail de colorisation",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Natsu2.jpeg",
+    "path": "../assets/graphic/Natsu2.jpeg",
     "description": "Crayonnage personnage Natsu - travail de colorisation",
     "type": "crayon"
   },
   {
-    "path": "../assets/img/illustration/Aquarelle.jpeg",
+    "path": "../assets/graphic/Aquarelle.jpeg",
     "description": "Colorisation d'un pikachu aviateur - travail de l'aquarelle",
     "type": "aquarelle"
   },
   {
-    "path": "../assets/img/illustration/Picsou.jpeg",
+    "path": "../assets/graphic/Picsou.jpeg",
     "description": "Colorisation de Picsou - travail du feutre",
     "type": "feutre"
   },
   {
-    "path": "../assets/img/illustration/Cygne.jpg",
+    "path": "../assets/graphic/Cygne.jpg",
     "description": "Travail au spray, gestion des couloirs et manipulation des pochoirs",
     "type": "bombe"
   },
   {
-    "path": "../assets/img/illustration/Univers1.jpeg",
+    "path": "../assets/graphic/Univers1.jpeg",
     "description": "Travail au spray, gestion des couloirs et manipulation des pochoirs",
     "type": "bombe"
   },
   {
-    "path": "../assets/img/illustration/Univers2.jpeg",
+    "path": "../assets/graphic/Univers2.jpeg",
     "description": "Travail au spray, gestion des couloirs et manipulation des pochoirs",
     "type": "bombe"
   },
   {
-    "path": "../assets/img/illustration/Univers3.jpeg",
+    "path": "../assets/graphic/Univers3.jpeg",
     "description": "Travail de la peinture acrylique et de la texture avec des éponges",
     "type": "peinture"
   },
   {
-    "path": "../assets/img/illustration/Univers4.jpeg",
+    "path": "../assets/graphic/Univers4.jpeg",
     "description": "Travail de la peinture acrylique et de la texture avec des éponges",
     "type": "peinture"
   },
   {
-    "path": "../assets/img/illustration/Univers5.jpeg",
+    "path": "../assets/graphic/Univers5.jpeg",
     "description": "Travail de la peinture acrylique et de la texture avec des éponges",
     "type": "peinture"
   },
   {
-    "path": "../assets/img/illustration/mignion.jpg",
+    "path": "../assets/graphic/mignion.jpg",
     "description": "Illustration, travail de la peinture acrylique - réalisé sur demande",
     "type": "peinture"
   },
 
   {
-    "path": "../assets/img/illustration/Anarchie.jpg",
+    "path": "../assets/graphic/Anarchie.jpg",
     "description": "Illustration, thème de l'anarchie - réalisé sur demande",
     "type": "peinture"
   },
   {
-    "path": "../assets/img/illustration/Savane.jpg",
+    "path": "../assets/graphic/Savane.jpg",
     "description": "Travail de la peinture acrylique, cercle crhomatique et travail de dégradé",
     "type": "peinture"
   },
   {
-    "path": "../assets/img/illustration/baymax.jpg",
+    "path": "../assets/graphic/baymax.jpg",
     "description": "Baymax, travail des couleurs associé avec une émotion, création d'un élement amovible afin de les positionnée dans l'odre souhaité (scotch/scrath placé sur les 4 rebords des toiles)",
     "type": "peinture"
   }

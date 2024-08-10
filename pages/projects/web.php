@@ -97,7 +97,6 @@ include "./components/header.php";
                 card.innerHTML = `
                 <div class="details-projects-header">
                     <p class="card-text title-project">${project.title}</p>
-                    <div class="color-project">${project.charte}</div>
                 </div>
                 <div class="details-projects">
                     ${project.description ? `<p class="card-description">${project.description}</p>` : ''}
