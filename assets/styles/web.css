@@ -1,3 +1,8 @@
+/* Style global pour tous les écrans */
+#filter-select {
+  display: none;
+}
+
 .title-page-projects {
   text-align: center;
   margin-top: 50px;
@@ -107,4 +112,84 @@
 .filter-btn:active {
   transform: translateY(5px);
   cursor: pointer;
+}
+
+/* Responsive pour écrans moyens (tablettes) */
+@media screen and (max-width: 768px) {
+  .main-container-web {
+    padding: 0 25px;
+  }
+
+  .card-container {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .details-projects-header {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-item.video {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+}
+
+/* Responsive pour petits écrans (mobiles) */
+@media screen and (max-width: 426px) {
+  .main-container-web {
+    padding: 0 15px;
+  }
+
+  .card-container {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .details-projects-header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .title-project,
+  .color-project {
+    grid-column: span 1;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item.video {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  /* --- filter for mobile */
+  .filter {
+    display: none;
+  }
+
+  .filter-mobil {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+  }
+
+  /* Style du select */
+  #filter-select {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: lightgray 0 5px 15px 0;
+    background-color: white;
+    color: #333;
+    font-family: "Finger Paint", sans-serif;
+    font-size: 16px;
+  }
 }

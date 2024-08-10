@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="../assets/styles/global.css">
 <link rel="stylesheet" href="../assets/styles/web.css">
 
-<?php 
-include "./components/header.php"; 
+<?php
+include "./components/header.php";
 ?>
 
 <main>
@@ -18,6 +18,14 @@ include "./components/header.php";
         <button class="filter-btn" data-filter="Perso">Personnel</button>
     </section>
 
+    <section class="filter-mobil">
+        <select id="filter-select">
+            <option value="all">Tous</option>
+            <option value="Plateforme">La Plateforme_</option>
+            <option value="Perso">Personnel</option>
+        </select>
+    </section>
+
     <section class="main-container-web" id="projects-container">
         <!-- Les cartes de projet seront ajoutées ici par JavaScript -->
     </section>
@@ -27,44 +35,57 @@ include "./components/header.php";
 
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const container = document.getElementById('projects-container');
-    let projectsData = [];
+    document.addEventListener("DOMContentLoaded", () => {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const filterSelect = document.getElementById('filter-select');
+        const container = document.getElementById('projects-container');
+        let projectsData = [];
 
-    fetch('../assets/db/database-web.json')
-        .then(response => response.json())
-        .then(data => {
-            projectsData = data; // Stocker les données pour filtrage
-            displayProjects(projectsData); // Afficher les projets au chargement initial
-        })
-        .catch(error => console.error('Error fetching the projects:', error));
+        // Récupérer les données des projets
+        fetch('../assets/db/database-web.json')
+            .then(response => response.json())
+            .then(data => {
+                projectsData = data; // Stocker les données pour filtrage
+                displayProjects(projectsData); // Afficher les projets au chargement initial
+            })
+            .catch(error => console.error('Error fetching the projects:', error));
 
-    // Écouteur d'événements pour le filtre
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const selectedType = button.getAttribute('data-filter');
-            const filteredProjects = selectedType === 'all' 
-                ? projectsData 
+        // Filtrage avec les boutons
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const selectedType = button.getAttribute('data-filter');
+                filterProjects(selectedType);
+            });
+        });
+
+        // Filtrage avec le select
+        filterSelect.addEventListener('change', () => {
+            const selectedType = filterSelect.value;
+            filterProjects(selectedType);
+        });
+
+        // Fonction de filtrage
+        function filterProjects(selectedType) {
+            const filteredProjects = selectedType === 'all'
+                ? projectsData
                 : projectsData.filter(project => project.category === selectedType);
             displayProjects(filteredProjects);
-        });
-    });
+        }
 
-    // Fonction pour afficher les projets
-    function displayProjects(projects) {
-        container.innerHTML = ''; // Vider le conteneur avant d'ajouter les projets filtrés
-        projects.forEach(project => {
-            const card = document.createElement('div');
-            card.className = 'card-container';
+        // Fonction pour afficher les projets
+        function displayProjects(projects) {
+            container.innerHTML = ''; // Vider le conteneur avant d'ajouter les projets filtrés
+            projects.forEach(project => {
+                const card = document.createElement('div');
+                card.className = 'card-container';
 
-            // Vérification des champs avant de les ajouter
-            const imagesHtml = [project.image_one, project.image_two, project.image_three, project.image_four, project.image_five]
-                .filter(image => image) // Filtrer les images non définies ou vides
-                .map(image => `<div class="grid-item"><img class="card-pic" src="${image}" alt="${project.title}"></div>`)
-                .join('');
+                // Vérification des champs avant de les ajouter
+                const imagesHtml = [project.image_one, project.image_two, project.image_three, project.image_four, project.image_five]
+                    .filter(image => image) // Filtrer les images non définies ou vides
+                    .map(image => `<div class="grid-item"><img class="card-pic" src="${image}" alt="${project.title}"></div>`)
+                    .join('');
 
-            const videoHtml = project.video ? `
+                const videoHtml = project.video ? `
                 <div class="grid-item one">
                     <video class="card-pic" controls>
                         <source src="${project.video}" type="video/mp4">
@@ -73,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             ` : '';
 
-            card.innerHTML = `
+                card.innerHTML = `
                 <div class="details-projects-header">
                     <p class="card-text title-project">${project.title}</p>
                     <div class="color-project">${project.charte}</div>
@@ -88,8 +109,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${imagesHtml}
                 </div>
             `;
-            container.appendChild(card);
-        });
-    }
-});
+                container.appendChild(card);
+            });
+        }
+    });
+
 </script>

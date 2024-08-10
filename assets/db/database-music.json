@@ -2,199 +2,199 @@
   {
     "title": "Solitude",
     "format": "Audio",
-    "audio": "../assets/music/alone.mp3",
+    "audio": "../assets/music/sound/alone.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Conquête",
     "format": "Audio",
-    "audio": "../assets/music/conquête.mp3",
+    "audio": "../assets/music/sound/conquête.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Whisky",
     "format": "Audio",
-    "audio": "../assets/music/Whiskey.mp3",
+    "audio": "../assets/music/sound/Whiskey.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "My beast of Deep",
     "format": "Audio",
-    "audio": "../assets/music/deep.mp3",
+    "audio": "../assets/music/sound/deep.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Dans ce carton d'imagination",
     "format": "Audio",
-    "audio": "../assets/music/imagination.mp3",
+    "audio": "../assets/music/sound/imagination.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "L'impatience me gagne",
     "format": "Audio",
-    "audio": "../assets/music/impatience.mp3",
+    "audio": "../assets/music/sound/impatience.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Midnight",
     "format": "Audio",
-    "audio": "../assets/music/midnight.mp3",
+    "audio": "../assets/music/sound/midnight.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Reverly",
     "format": "Audio",
-    "audio": "../assets/music/revelry.mp3",
+    "audio": "../assets/music/sound/revelry.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Stop this Game",
     "format": "Audio",
-    "audio": "../assets/music/stop.mp3",
+    "audio": "../assets/music/sound/stop.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "I can't breath",
     "format": "Audio",
-    "audio": "../assets/music/breath.mp3",
+    "audio": "../assets/music/sound/breath.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Dance on the Moon",
     "format": "Audio",
-    "audio": "../assets/music/Dance.mp3",
+    "audio": "../assets/music/sound/Dance.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Face à ce désert",
     "format": "Audio",
-    "audio": "../assets/music/desert.mp3",
+    "audio": "../assets/music/sound/desert.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Donner ma flamme",
     "format": "Audio",
-    "audio": "../assets/music/flamme.mp3",
+    "audio": "../assets/music/sound/flamme.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Une jeunesse à moi (V1)",
     "format": "Audio",
-    "audio": "../assets/music/jeune.mp3",
+    "audio": "../assets/music/sound/jeune.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Une jeunesse à moi (V2)",
     "format": "Audio",
-    "audio": "../assets/music/jeunesse.mp3",
+    "audio": "../assets/music/sound/jeunesse.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Une jeunesse à moi (V3)",
     "format": "Audio",
-    "audio": "../assets/music/passé.mp3",
+    "audio": "../assets/music/sound/passé.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
   {
     "title": "Moonlight Dance",
     "format": "Audio",
-    "audio": "../assets/music/MD.mp3",
+    "audio": "../assets/music/sound/MD.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Symphonie minimaliste",
     "format": "Audio",
-    "audio": "../assets/music/minimalisme.mp3",
+    "audio": "../assets/music/sound/minimalisme.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Fairy night",
     "format": "Audio",
-    "audio": "../assets/music/night.mp3",
+    "audio": "../assets/music/sound/night.mp3",
     "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
     "title": "Sample Start",
     "format": "Audio",
-    "audio": "../assets/music/sample1.mp3",
+    "audio": "../assets/music/sound/sample1.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Sample To Continue",
     "format": "Audio",
-    "audio": "../assets/music/sample2.mp3",
+    "audio": "../assets/music/sound/sample2.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Sample To Be",
     "format": "Audio",
-    "audio": "../assets/music/sample3.mp3",
+    "audio": "../assets/music/sound/sample3.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Sample End ?",
     "format": "Audio",
-    "audio": "../assets/music/sample5.mp3",
+    "audio": "../assets/music/sound/sample5.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Mélancholie",
     "format": "Audio",
-    "audio": "../assets/music/Mélancholie.wav",
+    "audio": "../assets/music/sound/Mélancholie.wav",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Angry Christmas",
     "format": "Audio",
-    "audio": "../assets/music/christmas.mp3",
+    "audio": "../assets/music/sound/christmas.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Quand le diable danse",
     "format": "Audio",
-    "audio": "../assets/music/devil.mp3",
+    "audio": "../assets/music/sound/devil.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Aurevoir",
     "format": "Audio",
-    "audio": "../assets/music/l1.mp3",
+    "audio": "../assets/music/sound/l1.mp3",
     "type": "Instrumental",
     "plateforme": "Garageband"
   },
   {
     "title": "Métro, Boulot, Dodo",
     "format": "Image",
-    "img1": "../assets/music/Partitiongraphique1.jpg",
-    "img2": "../assets/music/Partitiongraphique2.jpg",
-    "img3": "../assets/music/Partitiongraphique3.jpg",
-    "img4": "../assets/music/Partitiongraphique4.jpg",
+    "img1": "../assets/music/pictures/partitiongraphique1.jpg",
+    "img2": "../assets/music/pictures/partitiongraphique2.jpg",
+    "img3": "../assets/music/pictures/partitiongraphique3.jpg",
+    "img4": "../assets/music/pictures/partitiongraphique4.jpg",
     "audio": "",
     "description": "Partition graphique à but pédagogique, s'inspirant des réalisations de Cathy Berberian",
     "type": "Graphique",
@@ -203,48 +203,48 @@
   {
     "title": "Le rythme au trippes",
     "format": "Image",
-    "img1": "../assets/music/basse1.png",
-    "img2": "../assets/music/basse2.png",
-    "audio": "../assets/music/bass.mp3",
+    "img1": "../assets/music/pictures/basse1.png",
+    "img2": "../assets/music/pictures/basse2.png",
+    "audio": "../assets/music/sound/bass.mp3",
     "type": "Instrumental",
     "plateforme": "Partition"
   },
   {
     "title": "Composer le monde",
     "format": "Image",
-    "img1": "../assets/music/monde1.png",
-    "img2": "../assets/music/monde2.png",
-    "img3": "../assets/music/monde3.png",
-    "audio": "../assets/music/l3.mp3",
+    "img1": "../assets/music/pictures/monde1.png",
+    "img2": "../assets/music/pictures/monde2.png",
+    "img3": "../assets/music/pictures/monde3.png",
+    "audio": "../assets/music/sound/l3.mp3",
     "type": "Instrumental",
     "plateforme": "Partition"
   },
   {
     "title": "Minimalisme musical",
     "format": "Image",
-    "img1": "../assets/music/451.png",
-    "img2": "../assets/music/452.png",
-    "img3": "../assets/music/453.png",
-    "img4": "../assets/music/454.png",
-    "audio": "../assets/music/mini.mp3",
+    "img1": "../assets/music/pictures/451.png",
+    "img2": "../assets/music/pictures/452.png",
+    "img3": "../assets/music/pictures/453.png",
+    "img4": "../assets/music/pictures/454.png",
+    "audio": "../assets/music/sound/mini.mp3",
     "type": "Instrumental",
     "plateforme": "Partition"
   },
   {
     "title": "Hauted House",
     "format": "Image",
-    "img1": "../assets/music/hanté.png",
-    "audio": "../assets/music/hanté.mp3",
+    "img1": "../assets/music/pictures/hanté.png",
+    "audio": "../assets/music/sound/hanté.mp3",
     "type": "Instrumental",
     "plateforme": "Partition"
   },
   {
     "title": "Come Back",
     "format": "Image",
-    "img1": "../assets/music/find1.png",
-    "img2": "../assets/music/find3.png",
+    "img1": "../assets/music/pictures/find1.png",
+    "img2": "../assets/music/pictures/find3.png",
     "img4": "",
-    "audio": "../assets/music/Retrouvé.mp3",
+    "audio": "../assets/music/sound/Retrouvé.mp3",
     "type": "Instrumental",
     "plateforme": "Partition"
   },
@@ -252,24 +252,24 @@
     "title": "Comptine musicale",
     "description": "Application musicale, lecteur de comptine, cette application à pour but de senesibliser à la découverte des notes de musique - réalisé en Licence Musicologie",
     "format": "Image",
-    "img1": "../assets/music/comptine1.png",
-    "img2": "../assets/music/comptine3.png",
-    "img3": "../assets/music/comptine5.png",
-    "img4": "../assets/music/comptine2.png",
+    "img1": "../assets/music/pictures/comptine1.png",
+    "img2": "",
+    "img3": "../assets/music/pictures/comptine2.png",
+    "img4": "../assets/music/pictures/comptine5.png",
     "audio": "",
-    "video": "../assets/music/comptine.mp4",
-    "type": "Instrumental",
+    "video": "../assets/music/video/comptine.mp4",
+    "type": "Application",
     "plateforme": "MaxMsp"
   },
   {
     "title": "SuperHero Theme",
     "description": "Application musicale, enregistrement des Bandes Oringales via le logicial Garageband - réalisé en Licence Musicologie",
     "format": "Image",
-    "img1": "../assets/music/hero1.png",
-    "img2": "../assets/music/hero2.png",
+    "img1": "../assets/music/pictures/hero1.png",
+    "img2": "",
     "audio": "",
-    "video": "../assets/music/hero.mp4",
-    "type": "Instrumental",
+    "video": "../assets/music/video/hero.mp4",
+    "type": "Application",
     "plateforme": "MaxMsp"
   }
 ]
