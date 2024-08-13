@@ -1,7 +1,6 @@
 [
   {
     "title": "WatchMe",
-    "charte": "insérer l'image de la charte graphique",
     "description": "Un site de présentation des différents styles et genres de montre proposant un style luxueux et épuré afin d'avoir une navigation fluide et agréable. ",
     "video": "../assets/web/watchme/watchme.mp4",
     "image_one": "../assets/web/watchme/watch1.png",
@@ -34,17 +33,6 @@
     "category": "Plateforme"
   },
   {
-    "title": "BookShelf",
-    "description": "Reprenant un exercice proposé par La Plateforme, cette bibliothèque numérique permet de trier, ajouter et suivre ses différentes lecture.",
-    "video": "",
-    "image_one": "",
-    "image_two": "",
-    "languages": ["PHP", "MySQL", "CCS3", "Javascript"],
-    "outils": ["Trello", "Figma", "Jira", "LucidChart", "VS Code", "GitHub"],
-    "link": "#",
-    "category": "Perso"
-  },
-  {
     "title": "Memory",
     "description": "Travaillez votre mémoire sur un jeu unique ! La découverte de ReractJJ a permis la prise en main du concept de 'components' afin de rendre plus manipulable le code.",
     "video": "../assets/web/memory/memory.mp4",
@@ -63,17 +51,6 @@
     "image_two": "../assets/web/cinetech/cine2.png",
     "languages": ["Javacript", "CSS3"],
     "outils": ["API", "Trello", "VS Code", "Boostrap"],
-    "link": "#",
-    "category": "Plateforme"
-  },
-  {
-    "title": "BloomPetal",
-    "description": "Premier site réalisé à La Plateforme, ce e-commerce de bouqet de fleur a été revisté en cette fin de première année de formation.",
-    "video": "",
-    "image_one": "",
-    "image_two": "",
-    "languages": ["HTML5", "CSS3"],
-    "outils": ["VS Code", "Google Font"],
     "link": "#",
     "category": "Plateforme"
   },
@@ -107,28 +84,6 @@
     "image_two": "",
     "languages": ["PHP", "MySQL", "CSS3"],
     "outils": ["Trello", "VS Code", "LucidChart", "Figma"],
-    "link": "#",
-    "category": "Plateforme"
-  },
-  {
-    "title": "JPO-Connect",
-    "description": "Cette application est réalisé afi de faciliter la présenation et l'annonce de portes ouvertes de l'école La Plateforme. Respectant la charte graphique du centre formation, les couleurs sont attractives. L'UX et l'UI sont pensé tant pour les nutilisateurs que pour les adminstrateurs : garantir la manipulation de l'interface.",
-    "video": "",
-    "image_one": "",
-    "image_two": "",
-    "languages": ["PHP", "MySQL", "CSS3", "Javacript"],
-    "outils": ["Trello", "VS Code", "LucidChart", "Figma", "GitHub"],
-    "link": "#",
-    "category": "Plateforme"
-  },
-  {
-    "title": "Fansite",
-    "description": "La page d'accueil propose une navigation intuitive, redirigeant vers des présentations de jeux vidéo. Chaque page détaille les caractéristiques, mécaniques et offre une critique. Ce site est conçu comme une ressource informationnelle pour les amateurs de jeux vidéo.",
-    "video": "../assets/web/fansite/fansite.mp4",
-    "image_one": "../assets/web/fansite/fan1.png",
-    "image_two": "../assets/web/fansite/fan2.png",
-    "languages": ["HTML5", "CSS3"],
-    "outils": ["Trello", "VS Code"],
     "link": "#",
     "category": "Plateforme"
   }
