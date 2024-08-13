@@ -1,22 +1,8 @@
 [
   {
-    "title": "Conquête",
-    "format": "Audio",
-    "audio": "../assets/music/sound/conquête.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "My beast of Deep",
     "format": "Audio",
     "audio": "../assets/music/sound/deep.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Dans ce carton d'imagination",
-    "format": "Audio",
-    "audio": "../assets/music/sound/imagination.mp3",
     "type": "Paroles",
     "plateforme": "Suno"
   },
