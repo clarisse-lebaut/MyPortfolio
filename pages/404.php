@@ -6,6 +6,7 @@
 <div class="container-avatar">
     <img class="avatar" src="../assets/img/bimoji/shame.png" alt="avatar">
 </div>
+
 <?php
 include "./components/header.php";
 ?>

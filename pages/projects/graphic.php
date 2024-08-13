@@ -41,7 +41,7 @@ include "./components/header.php";
     </section>
 
     <section class="main-container-art" id="projects-container">
-        <!-- Les cartes de projet seront ajoutées ici par JavaScript -->
+        <!-- Project cards will be added here by JavaScript -->
     </section>
 </main>
 
@@ -52,19 +52,19 @@ include "./components/footer.php";
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const filterButtons = document.querySelectorAll('.filter-btn');
-        const filterSelect = document.getElementById('filter-select'); // Sélection du select pour le mobile
+        const filterSelect = document.getElementById('filter-select');
         const container = document.getElementById('projects-container');
         let projectsData = [];
 
         fetch('../assets/db/database-art.json')
             .then(response => response.json())
             .then(data => {
-                projectsData = data; // Stocker les données pour filtrage
-                displayProjects(projectsData); // Afficher les projets au chargement initial
+                projectsData = data; // Store data for filtering
+                displayProjects(projectsData); // Show projects on initial load
             })
             .catch(error => console.error('Error fetching the projects:', error));
 
-        // Écouteur d'événements pour le filtre avec les boutons
+        // Event listener for filter with buttons
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const selectedType = button.getAttribute('data-filter');
@@ -72,13 +72,13 @@ include "./components/footer.php";
             });
         });
 
-        // Écouteur d'événements pour le filtre avec le select en mobile
+        // Event listener for filter with select in mobile
         filterSelect.addEventListener('change', () => {
             const selectedType = filterSelect.value;
             filterProjects(selectedType);
         });
 
-        // Fonction pour filtrer les projets
+        // Function to filter projects
         function filterProjects(selectedType) {
             const filteredProjects = selectedType === 'all'
                 ? projectsData
@@ -86,9 +86,9 @@ include "./components/footer.php";
             displayProjects(filteredProjects);
         }
 
-        // Fonction pour afficher les projets
+        // Function to display projects
         function displayProjects(projects) {
-            container.innerHTML = ''; // Vider le conteneur avant d'ajouter les projets filtrés
+            container.innerHTML = ''; // Empty the container before adding the filtered projects
             projects.forEach(project => {
                 const card = document.createElement('div');
                 card.innerHTML = `

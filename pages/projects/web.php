@@ -27,7 +27,7 @@ include "./components/header.php";
     </section>
 
     <section class="main-container-web" id="projects-container">
-        <!-- Les cartes de projet seront ajoutées ici par JavaScript -->
+        <!-- Project cards will be added here by JavaScript -->
     </section>
 </main>
 
@@ -41,16 +41,16 @@ include "./components/header.php";
         const container = document.getElementById('projects-container');
         let projectsData = [];
 
-        // Récupérer les données des projets
+        // Retrieve project data
         fetch('../assets/db/database-web.json')
             .then(response => response.json())
             .then(data => {
-                projectsData = data; // Stocker les données pour filtrage
-                displayProjects(projectsData); // Afficher les projets au chargement initial
+                projectsData = data; // Store data for filterin
+                displayProjects(projectsData); // Show projects on initial load
             })
             .catch(error => console.error('Error fetching the projects:', error));
 
-        // Filtrage avec les boutons
+        // Event listener for filter with buttons
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const selectedType = button.getAttribute('data-filter');
@@ -64,7 +64,7 @@ include "./components/header.php";
             filterProjects(selectedType);
         });
 
-        // Fonction de filtrage
+        // Event listener for filter with select in mobile
         function filterProjects(selectedType) {
             const filteredProjects = selectedType === 'all'
                 ? projectsData
@@ -72,16 +72,16 @@ include "./components/header.php";
             displayProjects(filteredProjects);
         }
 
-        // Fonction pour afficher les projets
+        // Function to display projects
         function displayProjects(projects) {
-            container.innerHTML = ''; // Vider le conteneur avant d'ajouter les projets filtrés
+            container.innerHTML = ''; // Empty the container before adding the filtered projects
             projects.forEach(project => {
                 const card = document.createElement('div');
                 card.className = 'card-container';
 
-                // Vérification des champs avant de les ajouter
+                // Checking fields before adding them
                 const imagesHtml = [project.image_one, project.image_two, project.image_three, project.image_four, project.image_five]
-                    .filter(image => image) // Filtrer les images non définies ou vides
+                    .filter(image => image) // Filter undefined or empty images
                     .map(image => `<div class="grid-item"><img class="card-pic" src="${image}" alt="${project.title}"></div>`)
                     .join('');
 

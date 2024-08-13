@@ -23,7 +23,7 @@ include "./components/header.php";
   </div>
 </nav>
 <main class="main">
-  <!-- prensentation -->
+  <!-- Prensentation -->
   <section class="presentation">
     <img class="avatar" src="../assets/img/bimoji/hero.png" alt="avatar">
     <div class="card-description-me">
@@ -80,7 +80,7 @@ include "./components/header.php";
       </div>
   </section>
 
-  <!-- formations -->
+  <!-- Formations -->
   <section class="main-container-formation">
     <h1 class="title-page-projects">Mes formations</h1>
     <section class="formation">
@@ -149,7 +149,7 @@ include "./components/header.php";
     </section>
   </section>
 
-  <!-- experiences -->
+  <!-- Experiences -->
   <section>
     <h1 class="title-page-projects">Mes expériences professionnelles</h1>
     <section class="experience">
@@ -242,6 +242,7 @@ include "./components/header.php";
     </div>
   </section>
 </main>
+
 <?php
 include "./components/footer.php";
 ?>
