@@ -55,17 +55,6 @@
     "category": "Plateforme"
   },
   {
-    "title": "Password Generator",
-    "description": "Ce projet réalisé en Python a permis de prendre en main la notion de fonction et de sécurité. La mise en place des vérifications des conditions de mot de passe assure la robustesse de ces derniers. La fonction de connexion utilisateur offre une expérience intuitive. Pour renforcer la confidentialité des données, l'intégration d'un système de hashage du mot de passe est présente. Enfin, la manipulation agile de données JSON permet une gestion des informations.",
-    "video": "../assets/web/password/password.mp4",
-    "image_one": "../assets/web/password/password1.png",
-    "image_two": "../assets/web/password/password2.png",
-    "languages": ["Python"],
-    "outils": [],
-    "link": "#",
-    "category": "Plateforme"
-  },
-  {
     "title": "Quiz Night",
     "description": "Grâce à la manipulation habile de PHP et phpMyAdmin, cette application de quiz permet la création de quizz avec questions & réponses ! Plusieurs informations ont pu être extraites et manipulés en utilisant des requêtes SQL pour offrir une expérience fluide. Ce site a été conçu pour une expérience intuitive et agréable lors de la création et de la consultation de quizzes, avec la possibilité d'accéder aux détails de chaque quiz en un simple clic. Il est également possible d'éditer chacun des éléments. Le choix d'un design simple permet un repérage rapide et précis des informations !",
     "video": "../assets/web/quizznight/quizznight.mp4",
