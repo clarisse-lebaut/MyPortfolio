@@ -26,7 +26,7 @@ include "./components/header.php";
     <div class="main-card-container">
       <a href="index.php?page=web">
         <div class="main-card-content">
-          <img class="main-card-pic" src="../assets/img/category/coding.jpeg" alt="">
+          <img class="main-card-pic" src="../assets/img/category/web.png" alt="">
           <p class="main-card-text">Web</p>
         </div>
       </a>
@@ -34,7 +34,7 @@ include "./components/header.php";
     <div class="main-card-container">
       <a href="index.php?page=music">
         <div class="main-card-content">
-          <img class="main-card-pic" src="../assets/img/category/musique.jpg" alt="">
+          <img class="main-card-pic" src="../assets/img/category/musique.png" alt="">
           <p class="main-card-text">Musicaux</p>
         </div>
       </a>
@@ -42,7 +42,7 @@ include "./components/header.php";
     <div class="main-card-container">
       <a href="index.php?page=graphic">
         <div class="main-card-content">
-          <img class="main-card-pic" src="../assets/img/category/art.webp" alt="">
+          <img class="main-card-pic" src="../assets/img/category/graphique.png" alt="">
           <p class="main-card-text">Graphiques</p>
         </div>
       </a>

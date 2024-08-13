@@ -18,7 +18,7 @@
 /* *global parameters for all devices */
 .section-link,
 .section-logo,
-.main-footer-nav{
+.main-footer-nav {
   display: flex;
   justify-content: center;
 }
@@ -60,8 +60,8 @@
 }
 .icon {
   width: 70px;
+  transition: transform 0.3s ease-in-out;
 }
 .icon:hover {
   transform: translateY(-10px);
-  border-radius: 10px;
 }

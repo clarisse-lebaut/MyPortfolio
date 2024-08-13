@@ -6,7 +6,7 @@
   <div class="container">
     <a href="index.php?page=web">
       <div class="content">
-        <img class="pic" src="../assets/img/category/coding.jpeg" alt="">
+        <img class="pic" src="../assets/img/category/web.png" alt="">
         <p class="text">Web</p>
       </div>
     </a>
@@ -14,7 +14,7 @@
   <div class="container">
     <a href="index.php?page=music">
       <div class="content">
-        <img class="pic" src="../assets/img/category/musique.jpg" alt="">
+        <img class="pic" src="../assets/img/category/musique.png" alt="">
         <p class="text">Musicaux</p>
       </div>
     </a>
@@ -22,7 +22,7 @@
   <div class="container">
     <a href="index.php?page=graphic">
       <div class="content">
-        <img class="pic" src="../assets/img/category/art.webp" alt="">
+        <img class="pic" src="../assets/img/category/graphique.png" alt="">
         <p class="text">Graphiques</p>
       </div>
     </a>

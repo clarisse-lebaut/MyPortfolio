@@ -30,4 +30,7 @@
         <a class="link-footer" href="https://github.com/clarisse-lebaut" target="_blank">
             <img class="icon" src="../assets/img/icons/square-github.svg" alt="logo github" /></a>
     </section>
+    <section class="copyright">
+        <p>&copy; <?php echo date("Y"); ?> Portfolio de Clarisse LE BAUT. Tous droits réservés.</p>
+    </section>
 </nav>
