@@ -64,16 +64,5 @@
     "outils": ["Trello", "VS Code", "Boostrap", "Figma"],
     "link": "#",
     "category": "Plateforme"
-  },
-  {
-    "title": "CandyShop",
-    "description": "La conception de ce site de e-commerce est réaliser avec PHP. Libre de chsoiri le thème, cette plateforme propose le rescencement de differntes bonbons trouvable à l'aide d'un filter. La ntion de requête permet une manipulation de la base de donnée, conçu en amont du codage afin de garantir la concpetion. La présence d'un panel adminstrateur permet axu gérant d'ajouter, modifer et supprimer des éléments de la base de donées.",
-    "video": "../assets/web/candyshop/candyshop.mp4",
-    "image_one": "../assets/web/candyshop/candy1.png",
-    "image_two": "",
-    "languages": ["PHP", "MySQL", "CSS3"],
-    "outils": ["Trello", "VS Code", "LucidChart", "Figma"],
-    "link": "#",
-    "category": "Plateforme"
   }
 ]
