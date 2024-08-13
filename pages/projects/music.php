@@ -147,5 +147,4 @@ include "./components/header.php";
             });
         }
     });
-
 </script>

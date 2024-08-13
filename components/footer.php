@@ -9,7 +9,6 @@
             <li class="main-footer-li"><a class="main-footer-a" href="../index.php?page=home">Home</a></li>
             <li class="main-footer-li"><a class="main-footer-a" href="../index.php?page=projects">Mes projets</a></li>
             <li class="main-footer-li"><a class="main-footer-a" href="../index.php?page=me">Qui suis-je ?</a></li>
-            <li class="main-footer-li"><a class="main-footer-a" href="../index.php?page=about">A Propos</a></li>
         </div>
         <div>
             <p class="title-footer-box"><b>MES PROJETS</b></p>

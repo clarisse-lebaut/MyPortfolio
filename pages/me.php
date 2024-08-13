@@ -38,10 +38,10 @@ include "./components/header.php";
               src="../assets/img/icons/square-github.svg" alt=""></a>
         </section>
         <p>
-          Créative au parcours atypique, je suis toujours prête à relever des défis.
-          L'innovation est au cœur de ma démarche, et j'aime apporter des idées nouvelles afin de crée des outils
-          originaux.
-          Experte en rien m'a-t-on déjà dit... mais curieuse de tout : je préfère dire que je suis sans limites !
+          Créative avec un parcours atypique, je suis constamment prête à relever de nouveaux défis. 
+          L'innovation est au cœur de ma démarche, et je m'efforce d'apporter des idées novatrices pour créer des outils originaux. 
+          Bien que je n'aie pas de spécialité unique, ma curiosité insatiable me pousse à explorer divers domaines. 
+          Pour me décrire, je dirais que je suis une personne dont les limites sont sans cesse en expansion !
         </p>
       </div>
       <div>
