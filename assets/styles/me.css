@@ -1,3 +1,4 @@
+/* *GLOBAL */
 .main {
   margin: 50px;
   gap: 20px;
@@ -9,8 +10,7 @@
   margin-top: 35px;
 }
 
-/* Différent liens comme sur mon CV */
-
+/* some <li> --> like on my CV */
 .cv-nav {
   display: flex;
   justify-content: center;
@@ -45,8 +45,7 @@
   color: black;
 }
 
-/* ---------------------------------- */
-
+/* *PRESENTATION CARD */
 .presentation {
   display: flex;
   align-items: center;
@@ -58,7 +57,6 @@
   border-radius: 20px;
   padding: 0 3.5rem 3.5rem 3.5rem;
   width: 70%;
-
   background: #91c8e4b8;
   box-shadow: 0 8px 32px 0 lightgray;
   backdrop-filter: blur(5.5px);
@@ -118,7 +116,7 @@
 .atout-ul:has(.atout-li:hover) .atout-li:not(:hover) {
   opacity: 0.3;
 }
-
+/* --- */
 .competences-ul {
   background-color: white;
   border-radius: 10px;
@@ -130,7 +128,7 @@
   gap: 2rem;
   box-shadow: inset lightgray 0 5px 15px 0;
 }
-
+/* --- */
 .logo-logiciel {
   width: 3.5%;
   height: 3.5%;
@@ -140,8 +138,7 @@
   height: 6%;
 }
 
-/* ------------------------- */
-
+/* *FORMATION CARD */
 .formation {
   display: flex;
   gap: 2rem;
@@ -171,7 +168,7 @@
   text-align: center;
 }
 
-/* -------------------------- */
+/* *EXPERIENCES CARD */
 .experience {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -191,8 +188,7 @@
   box-shadow: lightgray 0 5px 15px 0;
 }
 
-/* -------- */
-
+/* *BUTTON */
 .btn-cv {
   display: flex;
   justify-content: center;
@@ -225,63 +221,33 @@
 }
 
 @media screen and (max-width: 426px) {
-  /* Différent liens comme sur mon CV */
   .cv-ul {
-    list-style-type: none;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 25px;
   }
+
   .cv-li {
-    color: white;
-    text-decoration: none;
-    background-color: #749bc2;
     border-radius: 10px;
     padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
-  /* --- */
-
+  /* *PRESENTATION CARD */
   .presentation {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
   }
   .card-description-me {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     padding: 0 3.5rem 3.5rem 3.5rem;
-
-
-    background: #91c8e4b8;
-    box-shadow: 0 8px 32px 0 lightgray;
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
     border-radius: 0;
-    border: 1px solid rgba(255, 255, 255, 0.18);
   }
   .avatar {
     width: 100%;
     height: 100%;
   }
   .name {
-    color: white;
-    font-size: 40px;
-    margin: 0;
-    font-family: "Finger Paint", sans-serif;
     text-align: center;
-  }
-  .container-contact-logo {
-    display: flex;
-    gap: 2rem;
-    margin-top: 25px;
   }
   .contact-logo {
     display: none;
@@ -292,18 +258,8 @@
     list-style-type: none;
     gap: 2rem;
   }
-
   .competences-ul {
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    gap: 2rem;
-    box-shadow: inset lightgray 0 5px 15px 0;
   }
   .logo-logiciel {
     width: 25%;
@@ -313,7 +269,7 @@
     width: 28.5%;
     height: 28.5%;
   }
-  /* ------------------------- */
+  /* *FORMATION CARD */
   .formation {
     display: flex;
     flex-direction: column;
@@ -321,7 +277,7 @@
     gap: 2rem;
   }
 
-  /* -------------------------- */
+  /* *EXPERIENCE CARD */
   .experience {
     display: flex;
     flex-direction: column;

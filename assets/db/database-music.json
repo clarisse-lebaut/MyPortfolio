@@ -7,13 +7,6 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Whisky",
-    "format": "Audio",
-    "audio": "../assets/music/sound/Whiskey.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "My beast of Deep",
     "format": "Audio",
     "audio": "../assets/music/sound/deep.mp3",
@@ -28,20 +21,6 @@
     "plateforme": "Suno"
   },
   {
-    "title": "L'impatience me gagne",
-    "format": "Audio",
-    "audio": "../assets/music/sound/impatience.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "I can't breath",
-    "format": "Audio",
-    "audio": "../assets/music/sound/breath.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
     "title": "Face à ce désert",
     "format": "Audio",
     "audio": "../assets/music/sound/desert.mp3",
@@ -49,31 +28,10 @@
     "plateforme": "Suno"
   },
   {
-    "title": "Donner ma flamme",
-    "format": "Audio",
-    "audio": "../assets/music/sound/flamme.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Une jeunesse à moi (V1)",
-    "format": "Audio",
-    "audio": "../assets/music/sound/jeune.mp3",
-    "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Une jeunesse à moi (V2)",
+    "title": "Une jeunesse à moi",
     "format": "Audio",
     "audio": "../assets/music/sound/passé.mp3",
     "type": "Paroles",
-    "plateforme": "Suno"
-  },
-  {
-    "title": "Symphonie minimaliste",
-    "format": "Audio",
-    "audio": "../assets/music/sound/minimalisme.mp3",
-    "type": "Instrumental",
     "plateforme": "Suno"
   },
   {
@@ -91,14 +49,7 @@
     "plateforme": "Garageband"
   },
   {
-    "title": "Sample To Be",
-    "format": "Audio",
-    "audio": "../assets/music/sound/sample3.mp3",
-    "type": "Instrumental",
-    "plateforme": "Garageband"
-  },
-  {
-    "title": "Sample End ?",
+    "title": "Sample to Be",
     "format": "Audio",
     "audio": "../assets/music/sound/sample5.mp3",
     "type": "Instrumental",

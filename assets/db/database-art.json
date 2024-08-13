@@ -72,11 +72,6 @@
     "description": "Flash minimaliste -image vectoriel conçu sur Illustrator",
     "type": "illustrator"
   },
-  {
-    "path": "../assets/graphic/Spiderman.jpeg",
-    "description": "Spiderman - dessin fait au crayon HB - travail de l'ombrage",
-    "type": "croquis"
-  },
 
   {
     "path": "../assets/graphic/Joker.png",
@@ -99,83 +94,25 @@
     "type": "illustrator"
   },
   {
-    "path": "../assets/graphic/Wolverine.jpeg",
-    "description": "Wolverine - dessin conçu au crayon HB afin de travailler les ombres",
-    "type": "crayon"
-  },
-
-  {
-    "path": "../assets/graphic/Perso.jpeg",
-    "description": "Maquette d'un personnage masculin - réalisé à Ynov",
-    "type": "crayon"
-  },
-
-  {
-    "path": "../assets/graphic/Chaussures2.jpeg",
-    "description": "Croquis de chaussures, travail des proportions en design de produit - réalisé à Ynov",
-    "type": "croquis"
-  },
-  {
-    "path": "../assets/graphic/Chaussures1.jpeg",
-    "description": "Colorisation de chaussures - réalisé à Ynov",
-    "type": "croquis"
-  },
-
-  {
-    "path": "../assets/graphic/Chaussures3.jpeg",
-    "description": "Croquis de chaussures, travail des proportions en design de produit - réalisé à Ynov",
-    "type": "croquis"
-  },
-  {
-    "path": "../assets/graphic/Chaussures4.jpeg",
-    "description": "Colorisation de chaussures - réalisé à Ynov",
-    "type": "croquis"
-  },
-  {
-    "path": "../assets/graphic/Sac1.jpeg",
-    "description": "Croquis sac à dos, travail des proportions en design de produit - réalisé à Ynov",
-    "type": "croquis"
-  },
-  {
-    "path": "../assets/graphic/Sac4.jpeg",
-    "description": "Colorisation sac à dos - réalisé à Ynov",
-    "type": "croquis"
-  },
-
-  {
-    "path": "../assets/graphic/Sac2.jpeg",
-    "description": "Croquis sac à dos, travail des proportions en design de produit - réalisé à Ynov",
-    "type": "croquis"
-  },
-  {
-    "path": "../assets/graphic/Sac3.jpeg",
-    "description": "Colorisation sac à dos - réalisé à Ynov",
-    "type": "croquis"
-  },
-  {
     "path": "../assets/graphic/Pastel.jpeg",
     "description": "Pointillisme du système solaire, travail de la pastel grasse",
     "type": "pastel"
   },
   {
-    "path": "../assets/graphic/USB1.jpeg",
-    "description": "Croquis clé USB, travail des proportions en design de produit - réalisé à Ynov",
+    "path": "../assets/graphic/chaussures.png",
+    "description": "Croquis de chaussures, travail des proportions et colorisation en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
   {
-    "path": "../assets/graphic/USB2.jpeg",
-    "description": "Croquis clé USB, travail de l'ombrage en design de produit - réalisé à Ynov",
+    "path": "../assets/graphic/Sac.png",
+    "description": "Croquis sac à dos, travail des proportions et de colorisation en design de produit - réalisé à Ynov",
     "type": "croquis"
   },
+
   {
-    "path": "../assets/graphic/USB3.jpeg",
-    "description": "Colorisation clé USB - réalisé à Ynov",
+    "path": "../assets/graphic/usb.png",
+    "description": "Croquis clé USB, travail des proportions et de colorisation en design de produit - réalisé à Ynov",
     "type": "croquis"
-  },
-  {
-    "path": "../assets/graphic/NYBCroquis.jpeg",
-    "description": "Croquis d'un bâtiment fictif",
-    "type": "crayon"
   },
   {
     "path": "../assets/graphic/NYB.png",
@@ -184,7 +121,7 @@
   },
   {
     "path": "../assets/graphic/oiseau.jpeg",
-    "description": "Crayonnage animal, Cygne - travail de l'ombrage et des relfets",
+    "description": "Crayonnage Cygne, travail de l'ombrage et des relfets - réalisé sur commande",
     "type": "crayon"
   },
   {
@@ -208,16 +145,6 @@
     "type": "crayon"
   },
   {
-    "path": "../assets/graphic/Luffy3.jpeg",
-    "description": "Crayonnage personnage  Luffy - travail de colorisation",
-    "type": "crayon"
-  },
-  {
-    "path": "../assets/graphic/Natsu2.jpeg",
-    "description": "Crayonnage personnage Natsu - travail de colorisation",
-    "type": "crayon"
-  },
-  {
     "path": "../assets/graphic/Aquarelle.jpeg",
     "description": "Colorisation d'un pikachu aviateur - travail de l'aquarelle",
     "type": "aquarelle"
@@ -229,11 +156,6 @@
   },
   {
     "path": "../assets/graphic/Cygne.jpg",
-    "description": "Travail au spray, gestion des couloirs et manipulation des pochoirs",
-    "type": "bombe"
-  },
-  {
-    "path": "../assets/graphic/Univers1.jpeg",
     "description": "Travail au spray, gestion des couloirs et manipulation des pochoirs",
     "type": "bombe"
   },

@@ -1,16 +1,18 @@
 @media screen and (max-width: 768px) {
+  /* *NONE */
+
   .filter {
     display: none;
   }
 
-  /* -------------------------- */
+  /* *TITLE */
 
   .title-page-projects {
     text-align: center;
     margin-top: 50px;
   }
 
-  /* -------------------------- */
+  /* *CONTAINER */
 
   .main-container-art {
     display: flex;
@@ -42,7 +44,7 @@
     padding: 10px;
   }
 
-  /* -------------------------- */
+  /* *FILTER */
 
   .filter-mobil {
     display: flex;
@@ -51,7 +53,7 @@
     margin: 25px;
   }
 
-  /* Style de base du select */
+  /* select style */
   .filter-mobil select {
     width: 80%;
     padding: 10px;
@@ -66,18 +68,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  /* *NONE */
+
   .filter-mobil {
     display: none;
   }
 
-  /* -------------------------- */
+  /* *TITLE */
 
   .title-page-projects {
     text-align: center;
     margin-top: 50px;
   }
 
-  /* -------------------------- */
+  /* *CONTAINER */
 
   .main-container-art {
     display: grid;
@@ -109,7 +113,7 @@
     padding: 10px;
   }
 
-  /* -------------------------- */
+  /* *FILTER */
 
   .filter {
     display: flex;

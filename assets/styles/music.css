@@ -1,16 +1,16 @@
 @media screen and (max-width: 768px) {
-  /* Masque les filtres en mode desktop */
+  /* hide filter desktop in mobil mode  */
   .filter {
     display: none;
   }
 
-  /* Titre de la page */
+  /* title */
   .title-page-projects {
     text-align: center;
     margin-top: 50px;
   }
 
-  /* Conteneur principal pour les cartes musicales */
+  /* main container for music cards */
   .main-container-music {
     display: flex;
     flex-direction: column;
@@ -20,12 +20,11 @@
     padding: 0 25px;
     margin-bottom: 50px;
   }
-
-  /* Style des cartes musicales */
+  
+  /* cards style */
   .card-container-music,
   .card-container-image {
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #f8f8ff;
     border-radius: 10px;
@@ -34,14 +33,14 @@
     width: 100%;
   }
 
-  /* Images dans les cartes musicales */
+  /* picture in music cards */
   .img-music {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
   }
 
-  /* Conteneur d'images */
+  /* pic container */
   .container-img {
     width: 100%;
     display: flex;
@@ -51,7 +50,7 @@
     align-items: center;
   }
 
-  /* Vidéo musicale */
+  /* music video */
   .video-music {
     width: 100%;
     max-width: 100%;
@@ -60,7 +59,7 @@
     margin-bottom: 20px;
   }
 
-  /* Filtre pour mobile */
+  /* mobil filter */
   .filter-mobil {
     display: flex;
     justify-content: center;
@@ -68,7 +67,7 @@
     margin: 25px;
   }
 
-  /* Style du select en mode mobile */
+  /* slect mobile style */
   .filter-mobil select {
     width: 80%;
     padding: 10px;
@@ -83,18 +82,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* Masque le filtre pour mobile en mode desktop */
+  /* hide mobil filter in desktop mode */
   .filter-mobil {
     display: none;
   }
 
-  /* Titre de la page */
+  /* title */
   .title-page-projects {
     text-align: center;
     margin-top: 50px;
   }
 
-  /* Conteneur principal pour les cartes musicales */
+  /* Main container for music cards */
   .main-container-music {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +103,7 @@
     margin-bottom: 50px;
   }
 
-  /* Style des cartes musicales */
+  /* musics card style */
   .card-container-music,
   .card-container-image {
     background-color: #f8f8ff;
@@ -113,11 +112,10 @@
     text-align: center;
     box-shadow: 0 5px 15px 0px lightgray;
     flex: 1;
-    max-width: 350px;
     margin: 0 auto;
   }
 
-  /* Images dans les cartes musicales */
+  /* pic in music cards*/
   .img-music {
     width: 100%;
     max-width: 350px;
@@ -125,7 +123,7 @@
     transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
   }
 
-  /* Effet de survol pour les images */
+  /* hover pic cards */
   .card-container-image:has(.img-music:hover) .img-music:not(.img-music:hover) {
     opacity: 0.3;
     z-index: 1;
@@ -135,7 +133,7 @@
     z-index: 1;
   }
 
-  /* Conteneur d'images */
+  /* img container */
   .container-img {
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +142,7 @@
     align-items: center;
   }
 
-  /* Vidéo musicale */
+  /* video */
   .video-music {
     width: 100%;
     max-width: 800px;
@@ -153,7 +151,7 @@
     margin-bottom: 20px;
   }
 
-  /* Filtre pour desktop */
+  /* Filter pour desktop */
   .filter {
     display: flex;
     gap: 3rem;
@@ -161,7 +159,7 @@
     margin: 50px;
   }
 
-  /* Style des boutons de filtre */
+  /* button filter style */
   .filter-btn {
     border-radius: 50px;
     border: none;
@@ -172,7 +170,7 @@
     font-size: 15px;
   }
 
-  /* Effets de survol et d'activation pour les boutons de filtre */
+  /* effect for button filter */
   .filter-btn:hover {
     box-shadow: 0 5px 10px 0px lightgray;
     cursor: pointer;

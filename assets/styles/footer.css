@@ -1,47 +1,43 @@
+/* *mobil version */
 @media screen and (max-width: 426px) {
   .main-footer-nav {
     margin: 0 auto;
     width: 100%;
   }
-
   .section-link {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 5rem;
   }
   .section-logo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 1rem;
-    border-radius: 10px;
-    padding: 20px;
   }
 }
 
-.section-link {
+/* *global parameters for all devices */
+.section-link,
+.section-logo,
+.main-footer-nav{
   display: flex;
   justify-content: center;
+}
+.section-link {
   gap: 5rem;
 }
 .section-logo {
-  display: flex;
-  justify-content: center;
   gap: 3rem;
   border-radius: 10px;
   padding: 20px;
 }
 .main-footer-nav {
-  display: flex;
   flex-direction: column;
-  flex-wrap: wrap; /* Permet aux éléments de se replier à l'intérieur du conteneur */
-  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
-  gap: 5rem; /* Ajustez cette valeur si nécessaire */
+  gap: 5rem;
   padding: 20px;
   margin: 15px auto;
-  width: 90%; /* Ajustez cette valeur pour limiter la largeur */
+  width: 90%;
 
   background: #91c8e4;
   box-shadow: 0 5px 10px 0 lightgray;

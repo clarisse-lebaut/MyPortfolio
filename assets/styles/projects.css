@@ -16,7 +16,6 @@
   gap: 3rem;
   padding: 50px;
 }
-
 .title-page-projects {
   margin: 50px;
   text-align: center;
@@ -29,18 +28,15 @@
   border-radius: 10px;
   box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.37);
 }
-
 .main-card-content {
   position: relative;
 }
-
 .main-card-pic {
   border-radius: 10px;
   width: 450px;
   height: auto;
   display: block;
 }
-
 .main-card-text {
   position: absolute;
   top: 50%;
@@ -56,7 +52,6 @@
   white-space: nowrap;
   transition: transform 0.3s;
 }
-
 .main-card-text:hover {
-  transform: translate(-50%, -80%); /* Déplace le texte légèrement vers le bas lors du survol */
+  transform: translate(-50%, -80%);
 }
