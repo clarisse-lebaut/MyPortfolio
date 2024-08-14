@@ -100,6 +100,7 @@
 }
 .atout-ul {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   gap: 2rem;
 }
@@ -186,6 +187,25 @@
   padding: 10px;
   text-align: center;
   box-shadow: lightgray 0 5px 15px 0;
+}
+.atout-ul-ex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  gap: 2rem;
+}
+.atout-li-ex {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: inset lightgray 0 5px 15px 0;
+}
+.atout-ul-ex > .atout-li-ex {
+  transition: opacity 450ms linear;
+}
+.atout-ul-ex:has(.atout-li-ex:hover) .atout-li-ex:not(:hover) {
+  opacity: 0.3;
 }
 
 /* *BUTTON */
@@ -283,5 +303,10 @@
     flex-direction: column;
     margin: 0 -2.5rem 0 -2.5rem;
     gap: 2rem;
+  }
+  .atout-ul-ex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
